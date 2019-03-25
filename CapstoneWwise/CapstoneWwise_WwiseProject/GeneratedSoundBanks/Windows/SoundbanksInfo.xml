@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4055035850" Name="Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Jump_Land_Event"/>
+				<Event Id="318426706" Name="Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Jump_Up_Event"/>
+				<Event Id="1929621039" Name="Walk_Event" ObjectPath="\Events\Default Work Unit\Walk_Event"/>
+				<Event Id="1880450288" Name="Walk_Stop_Event" ObjectPath="\Events\Default Work Unit\Walk_Stop_Event" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="14721697" Language="SFX">
+					<ShortName>Walk_1\walk_sustain_1.wav</ShortName>
+					<Path>SFX\Walk_1\walk_sustain_1_444B957D.wem</Path>
+				</File>
+				<File Id="175649993" Language="SFX">
+					<ShortName>Walk_1\walk_end_1.wav</ShortName>
+					<Path>SFX\Walk_1\walk_end_1_56D34C19.wem</Path>
+				</File>
+				<File Id="182232431" Language="SFX">
+					<ShortName>Walk_2\walk_end_2.wav</ShortName>
+					<Path>SFX\Walk_2\walk_end_2_56D34C19.wem</Path>
+				</File>
+				<File Id="218659050" Language="SFX">
+					<ShortName>Jump\jump_land.wav</ShortName>
+					<Path>SFX\Jump\jump_land_0D960329.wem</Path>
+				</File>
+				<File Id="228615516" Language="SFX">
+					<ShortName>Walk_4\walk_sustain_4.wav</ShortName>
+					<Path>SFX\Walk_4\walk_sustain_4_12B2A134.wem</Path>
+				</File>
+				<File Id="232928352" Language="SFX">
+					<ShortName>Walk_4\walk_start_4.wav</ShortName>
+					<Path>SFX\Walk_4\walk_start_4_56D34C19.wem</Path>
+				</File>
+				<File Id="326672968" Language="SFX">
+					<ShortName>Walk_5\walk_start_5.wav</ShortName>
+					<Path>SFX\Walk_5\walk_start_5_56D34C19.wem</Path>
+				</File>
+				<File Id="391600569" Language="SFX">
+					<ShortName>Walk_2\walk_start_2.wav</ShortName>
+					<Path>SFX\Walk_2\walk_start_2_D6E18B2F.wem</Path>
+				</File>
+				<File Id="473579456" Language="SFX">
+					<ShortName>Walk_1\walk_start_1.wav</ShortName>
+					<Path>SFX\Walk_1\walk_start_1_56D34C19.wem</Path>
+				</File>
+				<File Id="594302112" Language="SFX">
+					<ShortName>Walk_5\walk_sustain_5.wav</ShortName>
+					<Path>SFX\Walk_5\walk_sustain_5_2F870297.wem</Path>
+				</File>
+				<File Id="630289399" Language="SFX">
+					<ShortName>Walk_3\walk_sustain_3.wav</ShortName>
+					<Path>SFX\Walk_3\walk_sustain_3_C06612FC.wem</Path>
+				</File>
+				<File Id="714920293" Language="SFX">
+					<ShortName>Walk_3\walk_start_3.wav</ShortName>
+					<Path>SFX\Walk_3\walk_start_3_56D34C19.wem</Path>
+				</File>
+				<File Id="820674114" Language="SFX">
+					<ShortName>Walk_5\walk_end_5.wav</ShortName>
+					<Path>SFX\Walk_5\walk_end_5_56D34C19.wem</Path>
+				</File>
+				<File Id="872859271" Language="SFX">
+					<ShortName>Walk_3\walk_end_3.wav</ShortName>
+					<Path>SFX\Walk_3\walk_end_3_56D34C19.wem</Path>
+				</File>
+				<File Id="965403456" Language="SFX">
+					<ShortName>Walk_2\walk_sustain_2.wav</ShortName>
+					<Path>SFX\Walk_2\walk_sustain_2_04C8A4F8.wem</Path>
+				</File>
+				<File Id="985974551" Language="SFX">
+					<ShortName>Jump\jump_up.wav</ShortName>
+					<Path>SFX\Jump\jump_up_77E4E4E5.wem</Path>
+				</File>
+				<File Id="1051181815" Language="SFX">
+					<ShortName>Walk_4\walk_end_4.wav</ShortName>
+					<Path>SFX\Walk_4\walk_end_4_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

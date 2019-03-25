@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c629c3b63649c47a5e44ebf0e25439, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3d684592d239124997918d18c80f6625
+    GuidInternal: 
+    m_lastTime: -8586480638139048149
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e936e1e40aa89349a910cbfceafe52b4
+    GuidInternal: 
+    m_lastTime: -8586480537473066424
+    List:
+    - name: JumpReverb
+      guid: 28e2f44fd63cdb47bbfa334125faa467
+      id: 3302700529
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Player
+        ObjectType: 2
+      - ElementName: JumpReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Player\JumpReverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2388a2f2cbe450428ca6b702cf731e8e
+    GuidInternal: 
+    m_lastTime: -8586480573788669190
+    List:
+    - name: Main
+      guid: 0e733bffb895554182b182d9425bd88c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2fedcb65b1008440a1a591015ce1173b
+    GuidInternal: 
+    m_lastTime: -8586480573788529059
+    List:
+    - name: Jump_Land_Event
+      guid: c0562bff7abf9948887466dd76385607
+      id: 4055035850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Jump_Land_Event
+        ObjectType: 3
+      Path: Default Work Unit\Jump_Land_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Jump_Up_Event
+      guid: 4d1d7bdd3bbba644af97791372735c6f
+      id: 318426706
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Jump_Up_Event
+        ObjectType: 3
+      Path: Default Work Unit\Jump_Up_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Walk_Event
+      guid: 49ee745f4193774a9677b1a737460ddd
+      id: 1929621039
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Walk_Event
+        ObjectType: 3
+      Path: Default Work Unit\Walk_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Walk_Stop_Event
+      guid: a5a614e3ab671e4b95b77a3756105a76
+      id: 1880450288
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Walk_Stop_Event
+        ObjectType: 3
+      Path: Default Work Unit\Walk_Stop_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 33c582a9b7934e4d94c89506606c767f
+    GuidInternal: 
+    m_lastTime: -8586480638139628685
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0bc4b9e351d05a4aa24e52bb3285ccd5
+    GuidInternal: 
+    m_lastTime: -8586480638139208299
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c82cab5dcea36245a36019a529717505
+    GuidInternal: 
+    m_lastTime: -8586480638139868904
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a40543fec9feb147b760484e06ef70bd
+    GuidInternal: 
+    m_lastTime: -8586480638139908940
+    List: []
+  ExpandedItems:
+  - /CapstoneWwise_WwiseProject
+  - /CapstoneWwise_WwiseProject/Events
+  - /CapstoneWwise_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

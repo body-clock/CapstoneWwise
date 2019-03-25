@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{94B118B9-B8A5-4869-B524-DE5FA9BB0A28}" WorkUnitID="{057B8784-AAD4-40C3-B4FD-5C134F07AA11}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Player" ID="{269FEE4B-2DDB-48E8-8BD2-DCB3746A01AC}">
+							<ChildrenList>
+								<AuxBus Name="JumpReverb" ID="{4FF4E228-3CD6-47DB-BBFA-334125FAA467}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Reverb_Highs" ID="{8F57A901-EE73-45CF-AF4C-08AA1D35BAE6}" WorkUnitID="{A7D374E4-883E-4DCE-903F-192DE202D22A}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

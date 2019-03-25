@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2A28823-E4CB-4250-8CA6-B702CF731E8E}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F2A28823-E4CB-4250-8CA6-B702CF731E8E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{FF3B730E-95B8-4155-82B1-82D9425BD88C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Jump_Up_Event" ID="{DD7B1D4D-BB3B-44A6-AF97-791372735C6F}" WorkUnitID="{65CBED2F-00B1-4084-A1A5-91015CE1173B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jump_Land_Event" ID="{FF2B56C0-BF7A-4899-8874-66DD76385607}" WorkUnitID="{65CBED2F-00B1-4084-A1A5-91015CE1173B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Walk_Event" ID="{5F74EE49-9341-4A77-9677-B1A737460DDD}" WorkUnitID="{65CBED2F-00B1-4084-A1A5-91015CE1173B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Walk_Stop_Event" ID="{E314A6A5-67AB-4B1E-95B7-7A3756105A76}" WorkUnitID="{65CBED2F-00B1-4084-A1A5-91015CE1173B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

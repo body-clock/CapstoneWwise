@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\work\Git\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

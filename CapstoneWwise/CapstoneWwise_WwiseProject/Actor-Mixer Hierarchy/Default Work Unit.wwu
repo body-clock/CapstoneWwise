@@ -36,21 +36,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="jump_land" ID="{8B15A478-587A-46F7-9ADC-C78A78BB450E}" ShortID="218659050">
+										<AudioFileSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" ShortID="753621482">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="8.77192982456141E-02"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-10</Value>
-													</ValueList>
-												</Property>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.117872889896699"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.117872889896699"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Jump\jump_land.wav</AudioFile>
+											<AudioFile>jump_land.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="jump_land" ID="{8B15A478-587A-46F7-9ADC-C78A78BB450E}" Platform="Linked"/>
+										<ActiveSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="jump_up" ID="{EAEDD5BE-083A-4A5D-ABA0-53DBD7D79389}" ShortID="510972203">
@@ -63,21 +59,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="jump_up" ID="{C0B26A76-5AEC-4935-A61A-7A483B185AD8}" ShortID="985974551">
+										<AudioFileSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" ShortID="270224916">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="3.94736842105263E-02"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-10</Value>
-													</ValueList>
-												</Property>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.32293844546699E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Jump\jump_up.wav</AudioFile>
+											<AudioFile>jump_up.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="jump_up" ID="{C0B26A76-5AEC-4935-A61A-7A483B185AD8}" Platform="Linked"/>
+										<ActiveSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -22,6 +22,7 @@ public class LoomTrigger : MonoBehaviour
     public int numLights;
 
     public bool[] lights;
+    public PathPillar[] path;
 
 
     
@@ -64,6 +65,10 @@ public class LoomTrigger : MonoBehaviour
         if (coll.CompareTag("Player") && fullyLit)
         {
             emerging = true;
+            for (int i = 0; i < path.Length; i++)
+            {
+                path[i].readyToEmerge = true;
+            }
         }
     }
     

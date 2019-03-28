@@ -27,6 +27,7 @@ public class PostWwise : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (!isWalking)
         {
             if (Input.GetKey(KeyCode.W))
@@ -36,12 +37,14 @@ public class PostWwise : MonoBehaviour
             }
         }
         
+        
 
         if (Input.GetKeyUp(KeyCode.W))
         {
             Walk_Stop_Event.Post(gameObject);
             isWalking = false;
         }
+        */
         
         //if we're on the ground and press space, post jump up event
 

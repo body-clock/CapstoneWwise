@@ -3,90 +3,38 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{A3D86DC8-BBB5-4C21-BCF1-AC18A0327DCA}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Player" ID="{D104E959-E7A8-49B1-A6E8-54EE861AE27E}" ShortID="842470920">
+				<ActorMixer Name="Loom1" ID="{256BF576-37DE-44D9-9D9E-F1FD572438C8}" ShortID="1001913576">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player" ID="{269FEE4B-2DDB-48E8-8BD2-DCB3746A01AC}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="JumpReverb" ID="{4FF4E228-3CD6-47DB-BBFA-334125FAA467}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<ActorMixer Name="Jumping" ID="{CC84C5A9-2B6C-4A9E-8EAE-B43B0D661767}" ShortID="495599863">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="jump_land" ID="{AE98E16C-7FC7-4115-BEA8-32EF05F90B05}" ShortID="287983671">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" ShortID="753621482">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.117872889896699"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.117872889896699"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>jump_land.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="jump_up" ID="{EAEDD5BE-083A-4A5D-ABA0-53DBD7D79389}" ShortID="510972203">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" ShortID="270224916">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="2.32293844546699E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>jump_up.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
 						<RandomSequenceContainer Name="Walking" ID="{BC9F64C4-F9A3-4CF9-AAA2-C2714BE50C7D}" ShortID="784980863">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Walking Attenuation" ID="{845BCFB9-55C1-4968-91E9-2B14A21D7B91}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
 								</Reference>
-								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{C3B209CA-3959-4B56-A0D8-550E1DC6C4FD}" WorkUnitID="{A7D374E4-883E-4DCE-903F-192DE202D22A}"/>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+									<ObjectRef Name="Player" ID="{269FEE4B-2DDB-48E8-8BD2-DCB3746A01AC}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="JumpReverb" ID="{4FF4E228-3CD6-47DB-BBFA-334125FAA467}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -225,7 +173,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="walk_start_2" ID="{C8C56BA9-E4B2-4813-9B26-8AC9D9B76AD9}" ShortID="391600569">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="8.22383339300633E-03"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00822383339300633"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Walk_2\walk_start_2.wav</AudioFile>
@@ -339,7 +287,7 @@
 												<AudioFileSource Name="walk_sustain_4" ID="{5DB24789-11F3-4B19-BB25-8A875B08930E}" ShortID="228615516">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="16"/>
-														<Property Name="LoopBegin" Type="Real64" Value="7.40131578947368E-02"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0740131578947368"/>
 														<Property Name="LoopEnd" Type="Real64" Value="1.37828947368421"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -515,7 +463,7 @@
 												<AudioFileSource Name="walk_sustain_5" ID="{E46A48A8-DF22-4595-B4C2-17B8D08A24C3}" ShortID="594302112">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="4"/>
-														<Property Name="LoopBegin" Type="Real64" Value="8.38815789473684E-02"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0838815789473684"/>
 														<Property Name="LoopEnd" Type="Real64" Value="1.93421052631579"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -535,6 +483,78 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<ActorMixer Name="Player" ID="{D104E959-E7A8-49B1-A6E8-54EE861AE27E}" ShortID="842470920">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{269FEE4B-2DDB-48E8-8BD2-DCB3746A01AC}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="JumpReverb" ID="{4FF4E228-3CD6-47DB-BBFA-334125FAA467}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Jumping" ID="{CC84C5A9-2B6C-4A9E-8EAE-B43B0D661767}" ShortID="495599863">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="jump_land" ID="{AE98E16C-7FC7-4115-BEA8-32EF05F90B05}" ShortID="287983671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" ShortID="753621482">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.117872889896699"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.117872889896699"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>jump_land.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_land" ID="{16AFC468-F40E-4A73-B60E-A47211C15C4B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="jump_up" ID="{EAEDD5BE-083A-4A5D-ABA0-53DBD7D79389}" ShortID="510972203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" ShortID="270224916">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0232293844546699"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>jump_up.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

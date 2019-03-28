@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\work\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\work\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_CapstoneWwise.271557964.00" t="ExcludeRecursive" />
-    <e p="C:\Users\work\Git\CapstoneWwise" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="PostWwise.cs" t="Include" />
+        <e p="_Scripts" t="Include">
+          <e p="EventPositionConfiner.cs" t="Include" />
+          <e p="LightIntensityFlicker.cs" t="Include" />
+          <e p="LightStand.cs" t="Include" />
+          <e p="LoomTrigger.cs" t="Include" />
+          <e p="PathPillar.cs" t="Include" />
+          <e p="PostWwise.cs" t="Include" />
+          <e p="StarController.cs" t="Include" />
+        </e>
+        <e p="_Shaders" t="Include">
+          <e p="RadialBackground.shader" t="Include" />
+          <e p="SkyDomeStars.shader" t="Include" />
+          <e p="ToonShader.shader" t="Include" />
+        </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
             <e p="Scripts" t="Include">
@@ -564,6 +575,8 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_CapstoneWwise.-940680364.00" t="ExcludeRecursive" />
   </component>
   <component name="RiderRiderContentModelStore">
     <excludedPaths>

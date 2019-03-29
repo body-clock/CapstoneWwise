@@ -24,8 +24,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: e936e1e40aa89349a910cbfceafe52b4
     GuidInternal: 
-    m_lastTime: -8586480537473066424
+    m_lastTime: -8586477234656663852
     List:
+    - name: CandleVerb
+      guid: 9f5730b33bd6384e9b46c21aecd38ed6
+      id: 1239548273
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      - ElementName: CandleVerb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environment\CandleVerb
     - name: JumpReverb
       guid: 28e2f44fd63cdb47bbfa334125faa467
       id: 3302700529
@@ -39,12 +52,25 @@ MonoBehaviour:
       - ElementName: JumpReverb
         ObjectType: 1
       Path: Default Work Unit\Master Audio Bus\Player\JumpReverb
+    - name: WalkDecay
+      guid: 4aa4c27b70178445b4484f2b7e2c3162
+      id: 4107115080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      - ElementName: WalkDecay
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environment\WalkDecay
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2388a2f2cbe450428ca6b702cf731e8e
     GuidInternal: 
-    m_lastTime: -8586480573788669190
+    m_lastTime: -8586477237444683044
     List:
     - name: Main
       guid: 0e733bffb895554182b182d9425bd88c
@@ -60,8 +86,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586477830438529777
+    m_lastTime: -8586477238801216407
     List:
+    - name: Candle_Strike_Event
+      guid: af3dcd4e19121c4bb7a236665932780b
+      id: 749420382
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Candle_Strike_Event
+        ObjectType: 3
+      Path: Default Work Unit\Candle_Strike_Event
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
     - name: Jump_Land_Event
       guid: c0562bff7abf9948887466dd76385607
       id: 4055035850
@@ -83,6 +121,30 @@ MonoBehaviour:
       - ElementName: Jump_Up_Event
         ObjectType: 3
       Path: Default Work Unit\Jump_Up_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Ocean_Event
+      guid: 81490432b78fe44fb4875e2275374e17
+      id: 2984240761
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Ocean_Event
+        ObjectType: 3
+      Path: Default Work Unit\Play_Ocean_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_walk_end_1_1
+      guid: 808f2f87ffcad441a5a3f77ac41ff030
+      id: 2434138247
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_walk_end_1_1
+        ObjectType: 3
+      Path: Default Work Unit\Play_walk_end_1_1
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

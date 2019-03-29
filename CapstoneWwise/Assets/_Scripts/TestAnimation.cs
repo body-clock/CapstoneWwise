@@ -14,19 +14,9 @@ public class TestAnimation : MonoBehaviour
         cabinetAnimator.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            StartCoroutine(startAnimation());
-        }
+    
 
-       
-        
-    }
-
-    IEnumerator startAnimation()
+    public IEnumerator startAnimation()
     {
         yield return new WaitForSeconds(2f);
         cabinetAnimator.gameObject.SetActive(true);

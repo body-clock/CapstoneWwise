@@ -59,6 +59,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Candle_Strike_Event" ID="{4ECD3DAF-1219-4B1C-B7A2-36665932780B}">
+					<ChildrenList>
+						<Action Name="" ID="{61368F32-F987-417C-9D8B-A24902C3ACAC}" ShortID="735695779">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="match_strike" ID="{2B1ED265-9FB5-445F-AA4D-7B1487A90576}" WorkUnitID="{A3D86DC8-BBB5-4C21-BCF1-AC18A0327DCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9FA21B44-560E-4AF8-9C81-114F08F6BE2D}" ShortID="624899843">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Candle_Event_Sound" ID="{34090DCF-19F7-4349-9B14-4B6E04E3D6C5}" WorkUnitID="{A3D86DC8-BBB5-4C21-BCF1-AC18A0327DCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

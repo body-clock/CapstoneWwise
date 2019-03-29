@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/LoomTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="825">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <marker date="1553823841507" expanded="false" signature="6:92" ph="..." />
@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/LightStand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="15">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <marker date="1553871090764" expanded="false" signature="6:78" ph="..." />
@@ -51,10 +51,68 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WwiseWater.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1553883055495" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553883055495" expanded="true" signature="119:293" ph="{...}" />
+                <marker date="1553883055495" expanded="true" signature="191:212" ph="{...}" />
+                <marker date="1553883055495" expanded="true" signature="270:291" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+              <folding>
+                <marker date="1553884147234" expanded="false" signature="6:148" ph="..." />
+                <marker date="1553884147234" expanded="true" signature="202:9073" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="357:9071" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="2355:3141" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="2879:2965" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="2982:3069" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="3216:3918" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="3356:3458" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="3534:3687" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="3776:3838" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="3955:5412" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="4789:5056" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="4885:5042" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="5073:5187" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="5465:5945" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="5578:5780" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="5826:5878" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="6002:6924" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="6082:6134" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="6232:6646" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="6663:6848" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="6973:8396" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="7241:7388" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+                <marker date="1553884147234" expanded="true" signature="7546:7638" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="7655:7720" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="7900:7965" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="7979:8115" ph="/* handle speed change to give an fov kick ... */" />
+                <marker date="1553884147234" expanded="true" signature="8225:8386" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="8432:8522" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="8596:9065" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="8796:8848" ph="{...}" />
+                <marker date="1553884147234" expanded="true" signature="8899:8951" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/EventPositionConfiner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="795">
               <caret line="64" column="53" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="53" />
               <folding>
                 <marker date="1553823841503" expanded="true" signature="0:213" ph="/* Copyright (c) 2018 Audiokinetic Inc. / All Rights Reserved ... */" />
@@ -81,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/PostWwise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="645">
               <caret line="49" selection-start-line="46" selection-start-column="10" selection-end-line="49" />
               <folding>
                 <marker date="1553823841509" expanded="false" signature="6:128" ph="..." />
@@ -106,23 +164,24 @@
       <find>event</find>
       <find>clampemitterposition</find>
       <find>onena</find>
+      <find>runspeed</find>
     </findStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LightStand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Shaders/SkyDomeStars.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PostWwise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Shaders/RadialBackground.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WwiseWater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LoomTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/StarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PathPillar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/EventPositionConfiner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Shaders/SkyDomeStars.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Shaders/RadialBackground.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/PostWwise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightStand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoomTrigger.cs" />
@@ -134,6 +193,7 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/PostWwise.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EventPositionConfiner.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/LightStand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
       </list>
     </option>
   </component>
@@ -144,7 +204,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="69" />
+    <option name="y" value="38" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
@@ -153,15 +214,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,14 +287,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <frame x="69" y="38" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14275362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14710145" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -248,13 +309,14 @@
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="13" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="Performance Profiler" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,54 +340,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/StarController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PostWwise.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightStand.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoomTrigger.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/PathPillar.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Shaders/SkyDomeStars.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/_Shaders/RadialBackground.shader" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E75CE60-D3D6-41D8-A691-66F7B0E8643E/a9/bf504d40/Object.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/PostWwise.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="49" selection-start-line="46" selection-start-column="10" selection-end-line="49" />
-          <folding>
-            <marker date="1553823841509" expanded="false" signature="6:128" ph="..." />
-            <marker date="1553823841509" expanded="true" signature="168:1535" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="514:611" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="669:1533" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="684:1044" ph="/* if (!isWalking) ... */" />
-            <marker date="1553823841509" expanded="true" signature="1158:1326" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="1200:1316" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="1339:1518" ph="{...}" />
-            <marker date="1553823841509" expanded="true" signature="1380:1495" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseType.cs" />
+    <entry file="file://$PROJECT_DIR$/../WwiseGlobalTest/Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/AkCallbackManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs" />
+    <entry file="file://$PROJECT_DIR$/../WwiseGlobalTest/Assets/Wwise/Deployment/Components/AkInitializer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/LoomTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="825">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <marker date="1553823841507" expanded="false" signature="6:92" ph="..." />
@@ -345,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/LightStand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="15">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <marker date="1553871090764" expanded="false" signature="6:78" ph="..." />
@@ -360,23 +389,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WwiseGlobalTest/Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/AkCallbackManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/EventPositionConfiner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="795">
           <caret line="64" column="53" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="53" />
           <folding>
             <marker date="1553823841503" expanded="true" signature="0:213" ph="/* Copyright (c) 2018 Audiokinetic Inc. / All Rights Reserved ... */" />
@@ -399,17 +414,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/PostWwise.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        <state relative-caret-position="645">
+          <caret line="49" selection-start-line="46" selection-start-column="10" selection-end-line="49" />
+          <folding>
+            <marker date="1553823841509" expanded="false" signature="6:128" ph="..." />
+            <marker date="1553823841509" expanded="true" signature="168:1535" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="514:611" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="669:1533" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="684:1044" ph="/* if (!isWalking) ... */" />
+            <marker date="1553823841509" expanded="true" signature="1158:1326" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="1200:1316" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="1339:1518" ph="{...}" />
+            <marker date="1553823841509" expanded="true" signature="1380:1495" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WwiseGlobalTest/Assets/Wwise/Deployment/Components/AkInitializer.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/WwiseWater.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1553883055495" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553883055495" expanded="true" signature="119:293" ph="{...}" />
+            <marker date="1553883055495" expanded="true" signature="191:212" ph="{...}" />
+            <marker date="1553883055495" expanded="true" signature="270:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+          <folding>
+            <marker date="1553884147234" expanded="false" signature="6:148" ph="..." />
+            <marker date="1553884147234" expanded="true" signature="202:9073" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="357:9071" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="2355:3141" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="2879:2965" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="2982:3069" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="3216:3918" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="3356:3458" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="3534:3687" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="3776:3838" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="3955:5412" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="4789:5056" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="4885:5042" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="5073:5187" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="5465:5945" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="5578:5780" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="5826:5878" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="6002:6924" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="6082:6134" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="6232:6646" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="6663:6848" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="6973:8396" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="7241:7388" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+            <marker date="1553884147234" expanded="true" signature="7546:7638" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="7655:7720" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="7900:7965" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="7979:8115" ph="/* handle speed change to give an fov kick ... */" />
+            <marker date="1553884147234" expanded="true" signature="8225:8386" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="8432:8522" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="8596:9065" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="8796:8848" ph="{...}" />
+            <marker date="1553884147234" expanded="true" signature="8899:8951" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

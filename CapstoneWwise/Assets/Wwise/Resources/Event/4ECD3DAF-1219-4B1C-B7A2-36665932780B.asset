@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
+  m_Name: 4ECD3DAF-1219-4B1C-B7A2-36665932780B
+  m_EditorClassIdentifier: 
+  objectName: Candle_Strike_Event
+  id: 749420382
+  guid: 4ECD3DAF-1219-4B1C-B7A2-36665932780B

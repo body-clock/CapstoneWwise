@@ -1,28 +1,33 @@
 Event	ID	Name			Wwise Object Path	Notes
 	318426706	Jump_Up_Event			\Default Work Unit\Jump_Up_Event	
+	749420382	Candle_Strike_Event			\Default Work Unit\Candle_Strike_Event	
 	1880450288	Walk_Stop_Event			\Default Work Unit\Walk_Stop_Event	
 	1929621039	Walk_Event			\Default Work Unit\Walk_Event	
+	2984240761	Play_Ocean_Event			\Default Work Unit\Play_Ocean_Event	
 	4055035850	Jump_Land_Event			\Default Work Unit\Jump_Land_Event	
 
-Effect plug-ins	ID	Name	Type				Notes
-	1590660382	Nearly_Forever	Wwise Delay			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	14721697	walk_sustain_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_1\walk_sustain_1_444B957D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_1\walk_sustain_1		1190828
-	175649993	walk_end_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_1\walk_end_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_1\walk_end_1		352864
-	182232431	walk_end_2	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_2\walk_end_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_2\walk_end_2		352864
-	228615516	walk_sustain_4	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_4\walk_sustain_4_12B2A134.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_4\walk_sustain_4		264728
-	232928352	walk_start_4	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_4\walk_start_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_4\walk_start_4		88264
+	653456	walk_start_4_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_start_4.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_4\walk_start_4_1		74484
+	5220587	walk_end_2_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_end_2.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_2\walk_end_2_1		271452
+	23200792	walk_start_5_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_start_5.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_5\walk_start_5_1		93088
+	106593757	walk_sustain_4_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_sustain_4.1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_4\walk_sustain_4_1		241928
+	138263036	candle_3	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\candle_3_59DDA0C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\Candle_Event_Sound\candle_3		529264
+	155211066	Ocean1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Ocean1_74C37703.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ocean\Ocean1		26139900
+	158634210	walk_start_2_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_start_2.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_2\walk_start_2_1		74484
+	162496685	walk_sustain_5_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_sustain_5.1_00101801.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_5\walk_sustain_5_1		372224
+	190141388	candle_4	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\candle_4_C9E30F91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\Candle_Event_Sound\candle_4		573364
 	270224916	jump_up	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\jump_up_AA1DC40B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Player\Jumping\jump_up		3153216
-	326672968	walk_start_5	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_5\walk_start_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_5\walk_start_5		132364
-	391600569	walk_start_2	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_2\walk_start_2_D6E18B2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_2\walk_start_2		110316
-	473579456	walk_start_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_1\walk_start_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_1\walk_start_1		132364
-	594302112	walk_sustain_5	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_5\walk_sustain_5_2F870297.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_5\walk_sustain_5		397028
-	630289399	walk_sustain_3	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_3\walk_sustain_3_C06612FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_3\walk_sustain_3		397028
-	714920293	walk_start_3	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_3\walk_start_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_3\walk_start_3		104804
+	327883855	match_strike	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\match_strike_2F902FA1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\match_strike		350056
+	424993302	walk_end_4_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_end_4.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_4\walk_end_4_1		241928
+	553845480	walk_sustain_1_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_sustain_1.1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_1\walk_sustain_1_1		1116348
+	569301669	walk_end_3_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_end_3.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_3\walk_end_3_1		248128
+	570756478	walk_end_5_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_end_5.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_5\walk_end_5_1		201616
+	599155637	candle_2	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\candle_2_0470F03A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\Candle_Event_Sound\candle_2		529264
+	710008340	walk_sustain_3_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_sustain_3.1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_3\walk_sustain_3_1		260532
 	753621482	jump_land	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\jump_land_A69F98E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Player\Jumping\jump_land		2823724
-	820674114	walk_end_5	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_5\walk_end_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_5\walk_end_5		352864
-	872859271	walk_end_3	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_3\walk_end_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_3\walk_end_3		352864
-	965403456	walk_sustain_2	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_2\walk_sustain_2_04C8A4F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_2\walk_sustain_2		507280
-	1051181815	walk_end_4	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\Walk_4\walk_end_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Walking\Walk_4\walk_end_4		352864
+	772492100	walk_sustain_2_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_sustain_2.1_4E41AD13.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_2\walk_sustain_2_1		558272
+	796390194	walk_end_1_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_end_1.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_1\walk_end_1_1		372160
+	799612909	walk_start_1_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_start_1.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_1\walk_start_1_1		74484
+	990817198	candle_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\candle_1_0367AD88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\Candle_Event_Sound\candle_1		534780
+	1042483751	walk_start_3_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Mac\SFX\walk_start_3.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_3\walk_start_3_1		62404
 

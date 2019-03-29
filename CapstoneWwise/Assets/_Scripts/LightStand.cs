@@ -14,12 +14,15 @@ public class LightStand : MonoBehaviour
 
     public int idx;
 
+    public AK.Wwise.Event Candle_Strike_Event;
+
     // Update is called once per frame
     void Update()
     {
         if (!isLit && canLight && Input.GetKeyDown(KeyCode.E))
         {
             myLight.SetActive(true);
+            Candle_Strike_Event.Post(gameObject);
             isLit = true;
             nextLoomTrigger.lights[idx] = true;
             StartCoroutine(objAnim.startAnimation());

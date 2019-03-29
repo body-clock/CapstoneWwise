@@ -21,6 +21,24 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}">
+							<ChildrenList>
+								<AuxBus Name="WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}">
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}">
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

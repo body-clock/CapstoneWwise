@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3d684592d239124997918d18c80f6625
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139048149
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e936e1e40aa89349a910cbfceafe52b4
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480537473066424
     List:
     - name: JumpReverb
       guid: 28e2f44fd63cdb47bbfa334125faa467
@@ -38,13 +38,13 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: JumpReverb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Player/JumpReverb
+      Path: Default Work Unit\Master Audio Bus\Player\JumpReverb
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2388a2f2cbe450428ca6b702cf731e8e
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480573788669190
     List:
     - name: Main
       guid: 0e733bffb895554182b182d9425bd88c
@@ -54,13 +54,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Main
         ObjectType: 7
-      Path: Default Work Unit/Main
+      Path: Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586478023824775808
+    m_lastTime: -8586477830438529777
     List:
     - name: Jump_Land_Event
       guid: c0562bff7abf9948887466dd76385607
@@ -70,7 +70,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Jump_Land_Event
         ObjectType: 3
-      Path: Default Work Unit/Jump_Land_Event
+      Path: Default Work Unit\Jump_Land_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Jump_Up_Event
         ObjectType: 3
-      Path: Default Work Unit/Jump_Up_Event
+      Path: Default Work Unit\Jump_Up_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Walk_Event
         ObjectType: 3
-      Path: Default Work Unit/Walk_Event
+      Path: Default Work Unit\Walk_Event
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
@@ -106,37 +106,37 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Walk_Stop_Event
         ObjectType: 3
-      Path: Default Work Unit/Walk_Stop_Event
+      Path: Default Work Unit\Walk_Stop_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 33c582a9b7934e4d94c89506606c767f
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139628685
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 0bc4b9e351d05a4aa24e52bb3285ccd5
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139208299
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c82cab5dcea36245a36019a529717505
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139868904
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a40543fec9feb147b760484e06ef70bd
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139908940
     List: []
   ExpandedItems:
   - /CapstoneWwise_WwiseProject

@@ -21,79 +21,105 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="749420382" Name="Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Candle_Strike_Event" MaxAttenuation="10.000000"/>
 				<Event Id="4055035850" Name="Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Jump_Land_Event"/>
 				<Event Id="318426706" Name="Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Jump_Up_Event"/>
+				<Event Id="2984240761" Name="Play_Ocean_Event" ObjectPath="\Events\Default Work Unit\Play_Ocean_Event"/>
 				<Event Id="1929621039" Name="Walk_Event" ObjectPath="\Events\Default Work Unit\Walk_Event" MaxAttenuation="50.000000"/>
 				<Event Id="1880450288" Name="Walk_Stop_Event" ObjectPath="\Events\Default Work Unit\Walk_Stop_Event" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="14721697" Language="SFX">
-					<ShortName>Walk_1\walk_sustain_1.wav</ShortName>
-					<Path>SFX\Walk_1\walk_sustain_1_444B957D.wem</Path>
+				<File Id="653456" Language="SFX">
+					<ShortName>walk_start_4.1.wav</ShortName>
+					<Path>SFX\walk_start_4.1_56D34C19.wem</Path>
 				</File>
-				<File Id="175649993" Language="SFX">
-					<ShortName>Walk_1\walk_end_1.wav</ShortName>
-					<Path>SFX\Walk_1\walk_end_1_56D34C19.wem</Path>
+				<File Id="5220587" Language="SFX">
+					<ShortName>walk_end_2.1.wav</ShortName>
+					<Path>SFX\walk_end_2.1_56D34C19.wem</Path>
 				</File>
-				<File Id="182232431" Language="SFX">
-					<ShortName>Walk_2\walk_end_2.wav</ShortName>
-					<Path>SFX\Walk_2\walk_end_2_56D34C19.wem</Path>
+				<File Id="23200792" Language="SFX">
+					<ShortName>walk_start_5.1.wav</ShortName>
+					<Path>SFX\walk_start_5.1_56D34C19.wem</Path>
 				</File>
-				<File Id="228615516" Language="SFX">
-					<ShortName>Walk_4\walk_sustain_4.wav</ShortName>
-					<Path>SFX\Walk_4\walk_sustain_4_12B2A134.wem</Path>
+				<File Id="106593757" Language="SFX">
+					<ShortName>walk_sustain_4.1.wav</ShortName>
+					<Path>SFX\walk_sustain_4.1_8956FC97.wem</Path>
 				</File>
-				<File Id="232928352" Language="SFX">
-					<ShortName>Walk_4\walk_start_4.wav</ShortName>
-					<Path>SFX\Walk_4\walk_start_4_56D34C19.wem</Path>
+				<File Id="138263036" Language="SFX">
+					<ShortName>candle_3.wav</ShortName>
+					<Path>SFX\candle_3_59DDA0C8.wem</Path>
+				</File>
+				<File Id="155211066" Language="SFX">
+					<ShortName>Ocean1.wav</ShortName>
+					<Path>SFX\Ocean1_74C37703.wem</Path>
+				</File>
+				<File Id="158634210" Language="SFX">
+					<ShortName>walk_start_2.1.wav</ShortName>
+					<Path>SFX\walk_start_2.1_56D34C19.wem</Path>
+				</File>
+				<File Id="162496685" Language="SFX">
+					<ShortName>walk_sustain_5.1.wav</ShortName>
+					<Path>SFX\walk_sustain_5.1_00101801.wem</Path>
+				</File>
+				<File Id="190141388" Language="SFX">
+					<ShortName>candle_4.wav</ShortName>
+					<Path>SFX\candle_4_C9E30F91.wem</Path>
 				</File>
 				<File Id="270224916" Language="SFX">
 					<ShortName>jump_up.wav</ShortName>
 					<Path>SFX\jump_up_AA1DC40B.wem</Path>
 				</File>
-				<File Id="326672968" Language="SFX">
-					<ShortName>Walk_5\walk_start_5.wav</ShortName>
-					<Path>SFX\Walk_5\walk_start_5_56D34C19.wem</Path>
+				<File Id="327883855" Language="SFX">
+					<ShortName>match_strike.wav</ShortName>
+					<Path>SFX\match_strike_2F902FA1.wem</Path>
 				</File>
-				<File Id="391600569" Language="SFX">
-					<ShortName>Walk_2\walk_start_2.wav</ShortName>
-					<Path>SFX\Walk_2\walk_start_2_D6E18B2F.wem</Path>
+				<File Id="424993302" Language="SFX">
+					<ShortName>walk_end_4.1.wav</ShortName>
+					<Path>SFX\walk_end_4.1_56D34C19.wem</Path>
 				</File>
-				<File Id="473579456" Language="SFX">
-					<ShortName>Walk_1\walk_start_1.wav</ShortName>
-					<Path>SFX\Walk_1\walk_start_1_56D34C19.wem</Path>
+				<File Id="553845480" Language="SFX">
+					<ShortName>walk_sustain_1.1.wav</ShortName>
+					<Path>SFX\walk_sustain_1.1_8956FC97.wem</Path>
 				</File>
-				<File Id="594302112" Language="SFX">
-					<ShortName>Walk_5\walk_sustain_5.wav</ShortName>
-					<Path>SFX\Walk_5\walk_sustain_5_2F870297.wem</Path>
+				<File Id="569301669" Language="SFX">
+					<ShortName>walk_end_3.1.wav</ShortName>
+					<Path>SFX\walk_end_3.1_56D34C19.wem</Path>
 				</File>
-				<File Id="630289399" Language="SFX">
-					<ShortName>Walk_3\walk_sustain_3.wav</ShortName>
-					<Path>SFX\Walk_3\walk_sustain_3_C06612FC.wem</Path>
+				<File Id="570756478" Language="SFX">
+					<ShortName>walk_end_5.1.wav</ShortName>
+					<Path>SFX\walk_end_5.1_56D34C19.wem</Path>
 				</File>
-				<File Id="714920293" Language="SFX">
-					<ShortName>Walk_3\walk_start_3.wav</ShortName>
-					<Path>SFX\Walk_3\walk_start_3_56D34C19.wem</Path>
+				<File Id="599155637" Language="SFX">
+					<ShortName>candle_2.wav</ShortName>
+					<Path>SFX\candle_2_0470F03A.wem</Path>
+				</File>
+				<File Id="710008340" Language="SFX">
+					<ShortName>walk_sustain_3.1.wav</ShortName>
+					<Path>SFX\walk_sustain_3.1_8956FC97.wem</Path>
 				</File>
 				<File Id="753621482" Language="SFX">
 					<ShortName>jump_land.wav</ShortName>
 					<Path>SFX\jump_land_A69F98E2.wem</Path>
 				</File>
-				<File Id="820674114" Language="SFX">
-					<ShortName>Walk_5\walk_end_5.wav</ShortName>
-					<Path>SFX\Walk_5\walk_end_5_56D34C19.wem</Path>
+				<File Id="772492100" Language="SFX">
+					<ShortName>walk_sustain_2.1.wav</ShortName>
+					<Path>SFX\walk_sustain_2.1_4E41AD13.wem</Path>
 				</File>
-				<File Id="872859271" Language="SFX">
-					<ShortName>Walk_3\walk_end_3.wav</ShortName>
-					<Path>SFX\Walk_3\walk_end_3_56D34C19.wem</Path>
+				<File Id="796390194" Language="SFX">
+					<ShortName>walk_end_1.1.wav</ShortName>
+					<Path>SFX\walk_end_1.1_56D34C19.wem</Path>
 				</File>
-				<File Id="965403456" Language="SFX">
-					<ShortName>Walk_2\walk_sustain_2.wav</ShortName>
-					<Path>SFX\Walk_2\walk_sustain_2_04C8A4F8.wem</Path>
+				<File Id="799612909" Language="SFX">
+					<ShortName>walk_start_1.1.wav</ShortName>
+					<Path>SFX\walk_start_1.1_56D34C19.wem</Path>
 				</File>
-				<File Id="1051181815" Language="SFX">
-					<ShortName>Walk_4\walk_end_4.wav</ShortName>
-					<Path>SFX\Walk_4\walk_end_4_56D34C19.wem</Path>
+				<File Id="990817198" Language="SFX">
+					<ShortName>candle_1.wav</ShortName>
+					<Path>SFX\candle_1_0367AD88.wem</Path>
+				</File>
+				<File Id="1042483751" Language="SFX">
+					<ShortName>walk_start_3.1.wav</ShortName>
+					<Path>SFX\walk_start_3.1_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

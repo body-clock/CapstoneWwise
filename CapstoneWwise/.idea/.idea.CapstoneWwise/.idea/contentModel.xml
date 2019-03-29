@@ -568,6 +568,7 @@
           <e p="Version.txt" t="Include" />
         </e>
         <e p="WwiseSettings.xml" t="Include" />
+        <e p="WwiseWater.cs" t="Include" />
       </e>
       <e p="CapstoneWwise.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

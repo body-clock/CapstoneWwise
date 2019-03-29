@@ -10,7 +10,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
+        [SerializeField] private Vector3 m_startPosition;
+        [SerializeField] private bool Testing;
         [SerializeField] private bool m_IsWalking;
+        [SerializeField] private bool m_canSprint;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
@@ -55,6 +58,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            if (Testing)
+            {
+                m_startPosition = new Vector3(-55,22,25);
+            }
+            else
+            {
+                m_startPosition = new Vector3(-130,2,100);
+            }
+
+            gameObject.transform.position = m_startPosition;
         }
 
 
@@ -179,7 +193,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
 #endif
             // set the desired speed to be walking or running
-            speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
+            if (m_canSprint)
+            {
+                speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
+            }
+            else
+            {
+                speed = m_WalkSpeed;
+            }
+            
             m_Input = new Vector2(horizontal, vertical);
 
             // normalize input if it exceeds 1 in combined length:

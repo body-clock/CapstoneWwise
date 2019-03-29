@@ -13,8 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CANDLE_STRIKE_EVENT = 749420382U;
         static const AkUniqueID JUMP_LAND_EVENT = 4055035850U;
         static const AkUniqueID JUMP_UP_EVENT = 318426706U;
+        static const AkUniqueID PLAY_OCEAN_EVENT = 2984240761U;
         static const AkUniqueID WALK_EVENT = 1929621039U;
         static const AkUniqueID WALK_STOP_EVENT = 1880450288U;
     } // namespace EVENTS
@@ -27,13 +29,16 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID PLAYER = 1069431850U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID CANDLEVERB = 1239548273U;
         static const AkUniqueID JUMPREVERB = 3302700529U;
+        static const AkUniqueID WALKDECAY = 4107115080U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

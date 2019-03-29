@@ -60,8 +60,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586477830438529777
+    m_lastTime: -8586477324489288136
     List:
+    - name: Candle_Strike_Event
+      guid: af3dcd4e19121c4bb7a236665932780b
+      id: 749420382
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Candle_Strike_Event
+        ObjectType: 3
+      Path: Default Work Unit\Candle_Strike_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Jump_Land_Event
       guid: c0562bff7abf9948887466dd76385607
       id: 4055035850
@@ -138,9 +150,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586480638139908940
     List: []
-  ExpandedItems:
-  - /CapstoneWwise_WwiseProject
-  - /CapstoneWwise_WwiseProject/Events
-  - /CapstoneWwise_WwiseProject/Events/Default Work Unit
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

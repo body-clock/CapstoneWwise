@@ -173,7 +173,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="walk_start_2" ID="{C8C56BA9-E4B2-4813-9B26-8AC9D9B76AD9}" ShortID="391600569">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00822383339300633"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.22383339300633E-03"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Walk_2\walk_start_2.wav</AudioFile>
@@ -287,7 +287,7 @@
 												<AudioFileSource Name="walk_sustain_4" ID="{5DB24789-11F3-4B19-BB25-8A875B08930E}" ShortID="228615516">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="16"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0740131578947368"/>
+														<Property Name="LoopBegin" Type="Real64" Value="7.40131578947368E-02"/>
 														<Property Name="LoopEnd" Type="Real64" Value="1.37828947368421"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -463,7 +463,7 @@
 												<AudioFileSource Name="walk_sustain_5" ID="{E46A48A8-DF22-4595-B4C2-17B8D08A24C3}" ShortID="594302112">
 													<PropertyList>
 														<Property Name="CrossfadeDuration" Type="Real64" Value="4"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0838815789473684"/>
+														<Property Name="LoopBegin" Type="Real64" Value="8.38815789473684E-02"/>
 														<Property Name="LoopEnd" Type="Real64" Value="1.93421052631579"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
@@ -520,6 +520,11 @@
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.117872889896699"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.117872889896699"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>jump_land.wav</AudioFile>
@@ -541,7 +546,12 @@
 											<ChildrenList>
 												<AudioFileSource Name="jump_up" ID="{5CF615A3-096E-4065-BC6D-485929E51098}" ShortID="270224916">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0232293844546699"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.082028763855553"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>jump_up.wav</AudioFile>

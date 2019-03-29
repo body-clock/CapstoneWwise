@@ -10,6 +10,7 @@ public class LightStand : MonoBehaviour
 
     public GameObject myLight;
     public LoomTrigger nextLoomTrigger;
+    public TestAnimation objAnim;
 
     public int idx;
 
@@ -24,6 +25,7 @@ public class LightStand : MonoBehaviour
             Candle_Strike_Event.Post(gameObject);
             isLit = true;
             nextLoomTrigger.lights[idx] = true;
+            StartCoroutine(objAnim.startAnimation());
         }
     }
 

@@ -60,7 +60,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586480573788529059
+    m_lastTime: -8586477830438529777
     List:
     - name: Jump_Land_Event
       guid: c0562bff7abf9948887466dd76385607
@@ -95,7 +95,7 @@ MonoBehaviour:
       - ElementName: Walk_Event
         ObjectType: 3
       Path: Default Work Unit\Walk_Event
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
     - name: Walk_Stop_Event

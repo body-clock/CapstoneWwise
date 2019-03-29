@@ -1060,6 +1060,12 @@ PrefabInstance:
       objectReference: {fileID: 409897801}
     - target: {fileID: 8670739014200756377, guid: 169ece776bfe8ca47860253619be6cbf,
         type: 3}
+<<<<<<< .merge_file_a05616
+      propertyPath: Candle_Strike_Event.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 7bf191fa8cbeb154e8d4fbc0e28ae32b,
+        type: 2}
+=======
       propertyPath: objAnim
       value: 
       objectReference: {fileID: 791795420}
@@ -1068,12 +1074,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.2373
       objectReference: {fileID: 0}
-    - target: {fileID: 8670739014200756377, guid: 169ece776bfe8ca47860253619be6cbf,
-        type: 3}
-      propertyPath: Candle_Strike_Event.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 7bf191fa8cbeb154e8d4fbc0e28ae32b,
-        type: 2}
+>>>>>>> .merge_file_a19940
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169ece776bfe8ca47860253619be6cbf, type: 3}
 --- !u!4 &240493056 stripped
@@ -1237,7 +1238,11 @@ Transform:
   m_Children:
   - {fileID: 688387669}
   m_Father: {fileID: 0}
+<<<<<<< .merge_file_a05616
+  m_RootOrder: 7
+=======
   m_RootOrder: 8
+>>>>>>> .merge_file_a19940
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409897800
 GameObject:
@@ -1341,7 +1346,11 @@ Transform:
   - {fileID: 409897803}
   - {fileID: 984204824}
   m_Father: {fileID: 0}
+<<<<<<< .merge_file_a05616
+  m_RootOrder: 6
+=======
   m_RootOrder: 9
+>>>>>>> .merge_file_a19940
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &523177416
 PrefabInstance:
@@ -1699,10 +1708,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5cd2410bf25569f49ae4ad9477158254, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 5cd2410bf25569f49ae4ad9477158254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -1786,17 +1791,20 @@ PrefabInstance:
       propertyPath: nextLoomTrigger
       value: 
       objectReference: {fileID: 409897801}
-    - target: {fileID: 8174424604674313358, guid: 169ece776bfe8ca47860253619be6cbf,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2377
-      objectReference: {fileID: 0}
+<<<<<<< .merge_file_a05616
     - target: {fileID: 8670739014200756377, guid: 169ece776bfe8ca47860253619be6cbf,
         type: 3}
       propertyPath: Candle_Strike_Event.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 7bf191fa8cbeb154e8d4fbc0e28ae32b,
         type: 2}
+=======
+    - target: {fileID: 8174424604674313358, guid: 169ece776bfe8ca47860253619be6cbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2377
+      objectReference: {fileID: 0}
+>>>>>>> .merge_file_a19940
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169ece776bfe8ca47860253619be6cbf, type: 3}
 --- !u!4 &686410284 stripped
@@ -2540,8 +2548,13 @@ Transform:
   m_LocalPosition: {x: -22, y: -7.6000004, z: 47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< .merge_file_a05616
   m_Father: {fileID: 460995615}
+  m_RootOrder: 5
+=======
+  m_Father: {fileID: 0}
   m_RootOrder: 10
+>>>>>>> .merge_file_a19940
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071229027
 GameObject:
@@ -3224,6 +3237,12 @@ PrefabInstance:
       objectReference: {fileID: 409897801}
     - target: {fileID: 8670739014200756377, guid: 169ece776bfe8ca47860253619be6cbf,
         type: 3}
+<<<<<<< .merge_file_a05616
+      propertyPath: Candle_Strike_Event.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 7bf191fa8cbeb154e8d4fbc0e28ae32b,
+        type: 2}
+=======
       propertyPath: objAnim
       value: 
       objectReference: {fileID: 612992876}
@@ -3232,12 +3251,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.2364
       objectReference: {fileID: 0}
-    - target: {fileID: 8670739014200756377, guid: 169ece776bfe8ca47860253619be6cbf,
-        type: 3}
-      propertyPath: Candle_Strike_Event.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 7bf191fa8cbeb154e8d4fbc0e28ae32b,
-        type: 2}
+>>>>>>> .merge_file_a19940
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169ece776bfe8ca47860253619be6cbf, type: 3}
 --- !u!4 &1899917898 stripped

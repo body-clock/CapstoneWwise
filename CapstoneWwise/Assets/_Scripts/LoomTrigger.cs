@@ -19,18 +19,20 @@ public class LoomTrigger : MonoBehaviour
     private bool emerging;
 
     private bool fullyLit;
+    private bool cutSceneReady;
     public int numLights;
 
     public bool[] lights;
     public PathPillar[] path;
 
-
+    public Loom1Completion cutScene;
     
     // Start is called before the first frame update
     void Start()
     {
         startPos = loom.transform.position;
         lights = new bool[numLights];
+        cutSceneReady = true;
     }
 
     // Update is called once per frame
@@ -46,6 +48,11 @@ public class LoomTrigger : MonoBehaviour
             }
         }
 
+        if (fullyLit && cutSceneReady)
+        {
+            cutScene.ready = true;
+            cutSceneReady = false;
+        }
 
         if (emerging)
         {

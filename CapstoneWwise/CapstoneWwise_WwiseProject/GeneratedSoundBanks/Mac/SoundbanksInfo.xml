@@ -21,6 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="924341825" Name="Play_Candle_Ambience_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Ambience_Event" MaxAttenuation="10.000000"/>
 				<Event Id="3150360067" Name="Play_Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Strike_Event" MaxAttenuation="10.000000"/>
 				<Event Id="1089434027" Name="Play_Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Land_Event"/>
 				<Event Id="4172831283" Name="Play_Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Up_Event"/>
@@ -74,6 +75,10 @@
 					<ShortName>walk_end_4.1.wav</ShortName>
 					<Path>SFX\walk_end_4.1_56D34C19.wem</Path>
 				</File>
+				<File Id="428544052" Language="SFX">
+					<ShortName>candle_ambience_1.wav</ShortName>
+					<Path>SFX\candle_ambience_1_8956FC97.wem</Path>
+				</File>
 				<File Id="522848819" Language="SFX">
 					<ShortName>walk_start_5.1.wav</ShortName>
 					<Path>SFX\walk_start_5.1_56D34C19.wem</Path>
@@ -86,9 +91,17 @@
 					<ShortName>walk_end_3.1.wav</ShortName>
 					<Path>SFX\walk_end_3.1_56D34C19.wem</Path>
 				</File>
+				<File Id="593020201" Language="SFX">
+					<ShortName>candle_ambience_2.wav</ShortName>
+					<Path>SFX\candle_ambience_2_8956FC97.wem</Path>
+				</File>
 				<File Id="599155637" Language="SFX">
 					<ShortName>candle_2.wav</ShortName>
 					<Path>SFX\candle_2_0470F03A.wem</Path>
+				</File>
+				<File Id="699750576" Language="SFX">
+					<ShortName>candle_ambience_5.wav</ShortName>
+					<Path>SFX\candle_ambience_5_8956FC97.wem</Path>
 				</File>
 				<File Id="710008340" Language="SFX">
 					<ShortName>walk_sustain_3.1.wav</ShortName>
@@ -113,6 +126,14 @@
 				<File Id="799612909" Language="SFX">
 					<ShortName>walk_start_1.1.wav</ShortName>
 					<Path>SFX\walk_start_1.1_56D34C19.wem</Path>
+				</File>
+				<File Id="845031213" Language="SFX">
+					<ShortName>candle_ambience_3.wav</ShortName>
+					<Path>SFX\candle_ambience_3_8956FC97.wem</Path>
+				</File>
+				<File Id="902189740" Language="SFX">
+					<ShortName>candle_ambience_4.wav</ShortName>
+					<Path>SFX\candle_ambience_4_8956FC97.wem</Path>
 				</File>
 				<File Id="971283359" Language="SFX">
 					<ShortName>walk_end_5.1.wav</ShortName>

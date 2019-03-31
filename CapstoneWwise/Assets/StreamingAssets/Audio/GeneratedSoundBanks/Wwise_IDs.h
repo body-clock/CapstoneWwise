@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CANDLE_AMBIENCE_EVENT = 924341825U;
         static const AkUniqueID PLAY_CANDLE_STRIKE_EVENT = 3150360067U;
         static const AkUniqueID PLAY_JUMP_LAND_EVENT = 1089434027U;
         static const AkUniqueID PLAY_JUMP_UP_EVENT = 4172831283U;

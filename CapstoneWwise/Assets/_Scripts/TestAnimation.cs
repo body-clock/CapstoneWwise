@@ -7,6 +7,7 @@ public class TestAnimation : MonoBehaviour
 
 
     public Animator cabinetAnimator;
+    public float waitTime;
 
 
     void Start()
@@ -18,7 +19,7 @@ public class TestAnimation : MonoBehaviour
 
     public IEnumerator startAnimation()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(waitTime);
         cabinetAnimator.gameObject.SetActive(true);
         cabinetAnimator.SetBool("constructing", true);
     }

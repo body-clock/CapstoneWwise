@@ -33,7 +33,7 @@
 								<AuxBus Name="CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}">
 									<ReferenceList>
 										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-											<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 								</AuxBus>

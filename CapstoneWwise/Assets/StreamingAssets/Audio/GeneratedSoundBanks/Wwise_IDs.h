@@ -13,12 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID CANDLE_STRIKE_EVENT = 749420382U;
-        static const AkUniqueID JUMP_LAND_EVENT = 4055035850U;
-        static const AkUniqueID JUMP_UP_EVENT = 318426706U;
+        static const AkUniqueID PLAY_CANDLE_AMBIENCE_EVENT = 924341825U;
+        static const AkUniqueID PLAY_CANDLE_STRIKE_EVENT = 3150360067U;
+        static const AkUniqueID PLAY_JUMP_LAND_EVENT = 1089434027U;
+        static const AkUniqueID PLAY_JUMP_UP_EVENT = 4172831283U;
         static const AkUniqueID PLAY_OCEAN_EVENT = 2984240761U;
-        static const AkUniqueID WALK_EVENT = 1929621039U;
-        static const AkUniqueID WALK_STOP_EVENT = 1880450288U;
+        static const AkUniqueID PLAY_RISING_TEXTURE_EVENT = 2502199005U;
+        static const AkUniqueID PLAY_WALK_EVENT = 2687346008U;
+        static const AkUniqueID STOP_WALK_EVENT = 2846730698U;
     } // namespace EVENTS
 
     namespace BANKS

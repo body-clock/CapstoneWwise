@@ -103,19 +103,27 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Environment" ID="{93971F4E-AFD7-4931-8521-457145B43251}" ShortID="577871006">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value Platform="Windows">0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+									<ObjectRef Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Walking" ID="{BC9F64C4-F9A3-4CF9-AAA2-C2714BE50C7D}" ShortID="784980863">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
@@ -126,6 +134,9 @@
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
@@ -486,7 +497,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="walk_end_5_1" ID="{D38A2A74-ABB7-4FD0-8DF8-A0FF9560BA55}" ShortID="772361250">
+												<Sound Name="walk_end_5_1" ID="{3420BA22-4317-43CE-9D0C-3BEE3B322E66}" ShortID="667654422">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
@@ -496,16 +507,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="walk_end_5_1" ID="{C74184B9-E95E-41D8-8FC0-A59E1D7F326C}" ShortID="570756478">
+														<AudioFileSource Name="walk_end_5_1" ID="{015C6DFE-6FF6-404E-9F9F-AD7CB6B81A24}" ShortID="971283359">
 															<Language>SFX</Language>
 															<AudioFile>walk_end_5.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="walk_end_5_1" ID="{C74184B9-E95E-41D8-8FC0-A59E1D7F326C}" Platform="Linked"/>
+														<ActiveSource Name="walk_end_5_1" ID="{015C6DFE-6FF6-404E-9F9F-AD7CB6B81A24}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="walk_start_5_1" ID="{739EC427-4DBB-490E-A6AB-12FA527EAF37}" ShortID="495570663">
+												<Sound Name="walk_start_5_1" ID="{9BFCBDD9-96B6-4FE7-8AA7-8787EF78D3F5}" ShortID="553482635">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
@@ -515,16 +526,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="walk_start_5_1" ID="{B7E3BE8D-B53E-454B-B3B0-A321EA5AF7D5}" ShortID="23200792">
+														<AudioFileSource Name="walk_start_5_1" ID="{1186180F-C0DD-46BF-B0EC-CBAA7E7A6E3D}" ShortID="522848819">
 															<Language>SFX</Language>
 															<AudioFile>walk_start_5.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="walk_start_5_1" ID="{B7E3BE8D-B53E-454B-B3B0-A321EA5AF7D5}" Platform="Linked"/>
+														<ActiveSource Name="walk_start_5_1" ID="{1186180F-C0DD-46BF-B0EC-CBAA7E7A6E3D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="walk_sustain_5_1" ID="{54633254-8E87-455B-903C-8475E2500C81}" ShortID="785579549">
+												<Sound Name="walk_sustain_5_1" ID="{CEE10D14-AD4B-412A-9167-B7EB022173B4}" ShortID="114287681">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
@@ -537,34 +548,34 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="walk_sustain_5_1" ID="{93E71D2D-5F16-421E-ADB8-D6D335AE8557}" ShortID="162496685">
-															<PropertyList>
-																<Property Name="CrossfadeDuration" Type="Real64" Value="141"/>
-																<Property Name="LoopBegin" Type="Real64" Value="5.08843537414966E-02"/>
-																<Property Name="LoopEnd" Type="Real64" Value="2.06081632653061"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-															</PropertyList>
+														<AudioFileSource Name="walk_sustain_5_1" ID="{923462D2-0A05-4AD7-A623-486EC1E02E29}" ShortID="415888229">
 															<Language>SFX</Language>
 															<AudioFile>walk_sustain_5.1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="walk_sustain_5_1" ID="{93E71D2D-5F16-421E-ADB8-D6D335AE8557}" Platform="Linked"/>
+														<ActiveSource Name="walk_sustain_5_1" ID="{923462D2-0A05-4AD7-A623-486EC1E02E29}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
-												<ItemRef Name="walk_start_5_1" ID="{739EC427-4DBB-490E-A6AB-12FA527EAF37}"/>
-												<ItemRef Name="walk_sustain_5_1" ID="{54633254-8E87-455B-903C-8475E2500C81}"/>
+												<ItemRef Name="walk_start_5_1" ID="{9BFCBDD9-96B6-4FE7-8AA7-8787EF78D3F5}"/>
+												<ItemRef Name="walk_sustain_5_1" ID="{CEE10D14-AD4B-412A-9167-B7EB022173B4}"/>
 											</Playlist>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<ActorMixer Name="Candle" ID="{12952DB6-8982-4B04-8D6C-C37B71578A07}" ShortID="852734760">
 									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -572,6 +583,9 @@
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Aliasing" ID="{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
@@ -711,7 +725,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="match_strike" ID="{FCEED640-098D-4373-B8B2-4A257C75CA84}" ShortID="327883855">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.328572970123722"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.391760079762899"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.12473055157736"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.985718910371166"/>
@@ -725,8 +739,173 @@
 												<ActiveSource Name="match_strike" ID="{FCEED640-098D-4373-B8B2-4A257C75CA84}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="Candle_Ambience" ID="{3DA19109-FBDD-4C19-B01B-49BE022465BA}" ShortID="192966660">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Candle_Attenuation" ID="{8C627535-EB98-4704-818D-023F50218A2A}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="candle_ambience_1" ID="{D175567F-264D-413E-879C-47FEC95E3392}" ShortID="309070614">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="candle_ambience_1" ID="{EA4E8730-EC0B-4D43-A721-79C697E6F799}" ShortID="428544052">
+															<Language>SFX</Language>
+															<AudioFile>candle_ambience_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="candle_ambience_1" ID="{EA4E8730-EC0B-4D43-A721-79C697E6F799}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="candle_ambience_2" ID="{91ED8C30-67AE-40C0-8280-08552D2D6BEF}" ShortID="477298109">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="candle_ambience_2" ID="{192E0D70-507D-417C-9838-7DBD5E4D094C}" ShortID="593020201">
+															<Language>SFX</Language>
+															<AudioFile>candle_ambience_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="candle_ambience_2" ID="{192E0D70-507D-417C-9838-7DBD5E4D094C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="candle_ambience_3" ID="{39885D29-7C95-4C58-BB53-7BCFF2826DE1}" ShortID="709464397">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="candle_ambience_3" ID="{0D30F359-BBD8-42DA-BD51-A1336490D942}" ShortID="845031213">
+															<Language>SFX</Language>
+															<AudioFile>candle_ambience_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="candle_ambience_3" ID="{0D30F359-BBD8-42DA-BD51-A1336490D942}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="candle_ambience_4" ID="{59A5FA39-49EF-421B-AD17-C2309F985716}" ShortID="879206442">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="candle_ambience_4" ID="{704CE25E-7E0B-466D-A09B-863A28180D97}" ShortID="902189740">
+															<Language>SFX</Language>
+															<AudioFile>candle_ambience_4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="candle_ambience_4" ID="{704CE25E-7E0B-466D-A09B-863A28180D97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="candle_ambience_5" ID="{18CC37B5-9A1D-4CFF-9D3B-996B45966015}" ShortID="976426720">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="candle_ambience_5" ID="{4D3A7FA2-D57C-4F1E-B02F-AE40DF5D69B9}" ShortID="699750576">
+															<Language>SFX</Language>
+															<AudioFile>candle_ambience_5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="candle_ambience_5" ID="{4D3A7FA2-D57C-4F1E-B02F-AE40DF5D69B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<Sound Name="rising_texture_loop" ID="{ADCA0DFE-8CD5-4CFD-A855-41682E448D6D}" ShortID="301648141">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Rising_Texture_Attenuation" ID="{C6B9447F-8438-4850-A056-184D6F6918C9}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" ShortID="720071442">
+											<Language>SFX</Language>
+											<AudioFile>rising_texture_loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

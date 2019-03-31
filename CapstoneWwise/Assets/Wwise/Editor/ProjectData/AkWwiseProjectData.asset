@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: e936e1e40aa89349a910cbfceafe52b4
     GuidInternal: 
-    m_lastTime: -8586477234656663852
+    m_lastTime: -8586475552503331415
     List:
     - name: CandleVerb
       guid: 9f5730b33bd6384e9b46c21aecd38ed6
@@ -70,7 +70,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2388a2f2cbe450428ca6b702cf731e8e
     GuidInternal: 
-    m_lastTime: -8586477237444683044
+    m_lastTime: -8586475535896814920
     List:
     - name: Main
       guid: 0e733bffb895554182b182d9425bd88c
@@ -86,41 +86,53 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586477238801216407
+    m_lastTime: -8586475535897065146
     List:
-    - name: Candle_Strike_Event
-      guid: af3dcd4e19121c4bb7a236665932780b
-      id: 749420382
+    - name: Play_Candle_Ambience_Event
+      guid: db8b2065ab73d548b91f19b1f43761b5
+      id: 924341825
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Candle_Strike_Event
+      - ElementName: Play_Candle_Ambience_Event
         ObjectType: 3
-      Path: Default Work Unit\Candle_Strike_Event
+      Path: Default Work Unit\Play_Candle_Ambience_Event
       maxAttenuation: 10
       maxDuration: 0
       minDuration: 0
-    - name: Jump_Land_Event
-      guid: c0562bff7abf9948887466dd76385607
-      id: 4055035850
+    - name: Play_Candle_Strike_Event
+      guid: af3dcd4e19121c4bb7a236665932780b
+      id: 3150360067
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Jump_Land_Event
+      - ElementName: Play_Candle_Strike_Event
         ObjectType: 3
-      Path: Default Work Unit\Jump_Land_Event
+      Path: Default Work Unit\Play_Candle_Strike_Event
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Jump_Land_Event
+      guid: c0562bff7abf9948887466dd76385607
+      id: 1089434027
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Jump_Land_Event
+        ObjectType: 3
+      Path: Default Work Unit\Play_Jump_Land_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Jump_Up_Event
+    - name: Play_Jump_Up_Event
       guid: 4d1d7bdd3bbba644af97791372735c6f
-      id: 318426706
+      id: 4172831283
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Jump_Up_Event
+      - ElementName: Play_Jump_Up_Event
         ObjectType: 3
-      Path: Default Work Unit\Jump_Up_Event
+      Path: Default Work Unit\Play_Jump_Up_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -136,39 +148,39 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Play_walk_end_1_1
-      guid: 808f2f87ffcad441a5a3f77ac41ff030
-      id: 2434138247
+    - name: Play_Rising_Texture_Event
+      guid: cfb1c9fd297d734e85244cfb6a3884dc
+      id: 2502199005
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_walk_end_1_1
+      - ElementName: Play_Rising_Texture_Event
         ObjectType: 3
-      Path: Default Work Unit\Play_walk_end_1_1
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Walk_Event
-      guid: 49ee745f4193774a9677b1a737460ddd
-      id: 1929621039
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Walk_Event
-        ObjectType: 3
-      Path: Default Work Unit\Walk_Event
+      Path: Default Work Unit\Play_Rising_Texture_Event
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
-    - name: Walk_Stop_Event
-      guid: a5a614e3ab671e4b95b77a3756105a76
-      id: 1880450288
+    - name: Play_Walk_Event
+      guid: 49ee745f4193774a9677b1a737460ddd
+      id: 2687346008
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Walk_Stop_Event
+      - ElementName: Play_Walk_Event
         ObjectType: 3
-      Path: Default Work Unit\Walk_Stop_Event
+      Path: Default Work Unit\Play_Walk_Event
+      maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Walk_Event
+      guid: a5a614e3ab671e4b95b77a3756105a76
+      id: 2846730698
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Walk_Event
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Walk_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

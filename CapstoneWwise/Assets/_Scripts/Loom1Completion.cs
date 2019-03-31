@@ -62,6 +62,7 @@ public class Loom1Completion : MonoBehaviour
             }
         }
 
+        yield return new WaitForSeconds(3f);
 
         playerCam.SetActive(true);
         playerController.canWalk = true;

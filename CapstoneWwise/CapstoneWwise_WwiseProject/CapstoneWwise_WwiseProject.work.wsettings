@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{89741B4D-FFF7-47D6-9D43-4037E97500AC}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\work\Music\Ableton Projects\Capstone\Capstone Audio\1\Environment Sounds\Rising Texture"/>
 				<Property Name="Event Action List\{32044981-8FB7-4FE4-B487-5E2275374E17}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4ECD3DAF-1219-4B1C-B7A2-36665932780B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5F74EE49-9341-4A77-9677-B1A737460DDD}\x64_Expand States" Type="string" Value=""/>
@@ -13,6 +14,7 @@
 				<Property Name="Event Action List\{E1E81F90-8222-4411-8613-9C5190377726}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E314A6A5-67AB-4B1E-95B7-7A3756105A76}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E60F2427-C570-420E-898E-C11B91A27BAB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FDC9B1CF-7D29-4E73-8524-4CFB6A3884DC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FF2B56C0-BF7A-4899-8874-66DD76385607}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

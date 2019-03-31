@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID JUMP_LAND_EVENT = 4055035850U;
         static const AkUniqueID JUMP_UP_EVENT = 318426706U;
         static const AkUniqueID PLAY_OCEAN_EVENT = 2984240761U;
+        static const AkUniqueID PLAY_RISING_TEXTURE_EVENT = 2502199005U;
         static const AkUniqueID WALK_EVENT = 1929621039U;
         static const AkUniqueID WALK_STOP_EVENT = 1880450288U;
     } // namespace EVENTS

@@ -740,6 +740,37 @@
 										</Sound>
 									</ChildrenList>
 								</ActorMixer>
+								<Sound Name="rising_texture_loop" ID="{ADCA0DFE-8CD5-4CFD-A855-41682E448D6D}" ShortID="301648141">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Rising_Texture_Attenuation" ID="{C6B9447F-8438-4850-A056-184D6F6918C9}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" ShortID="720071442">
+											<Language>SFX</Language>
+											<AudioFile>rising_texture_loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

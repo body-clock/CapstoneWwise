@@ -70,7 +70,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2388a2f2cbe450428ca6b702cf731e8e
     GuidInternal: 
-    m_lastTime: -8586477237444683044
+    m_lastTime: -8586475543422532869
     List:
     - name: Main
       guid: 0e733bffb895554182b182d9425bd88c
@@ -86,7 +86,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586477238801216407
+    m_lastTime: -8586475543688144205
     List:
     - name: Candle_Strike_Event
       guid: af3dcd4e19121c4bb7a236665932780b
@@ -134,6 +134,18 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_Ocean_Event
       maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Rising_Texture_Event
+      guid: cfb1c9fd297d734e85244cfb6a3884dc
+      id: 2502199005
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Rising_Texture_Event
+        ObjectType: 3
+      Path: Default Work Unit\Play_Rising_Texture_Event
+      maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
     - name: Play_walk_end_1_1

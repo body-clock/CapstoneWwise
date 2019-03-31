@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	749420382	Candle_Strike_Event			\Default Work Unit\Candle_Strike_Event	
 	1880450288	Walk_Stop_Event			\Default Work Unit\Walk_Stop_Event	
 	1929621039	Walk_Event			\Default Work Unit\Walk_Event	
+	2502199005	Play_Rising_Texture_Event			\Default Work Unit\Play_Rising_Texture_Event	
 	2984240761	Play_Ocean_Event			\Default Work Unit\Play_Ocean_Event	
 	4055035850	Jump_Land_Event			\Default Work Unit\Jump_Land_Event	
 
@@ -27,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	569301669	walk_end_3_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\walk_end_3.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_3\walk_end_3_1		248128
 	599155637	candle_2	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\candle_2_0470F03A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Candle\Candle_Event_Sound\candle_2		529264
 	710008340	walk_sustain_3_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\walk_sustain_3.1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_3\walk_sustain_3_1		260532
+	720071442	rising_texture_loop	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\rising_texture_loop_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\rising_texture_loop		2205064
 	753621482	jump_land	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\jump_land_A69F98E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Player\Jumping\jump_land		2823724
 	772492100	walk_sustain_2_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\walk_sustain_2.1_4E41AD13.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_2\walk_sustain_2_1		558272
 	796390194	walk_end_1_1	C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\.cache\Windows\SFX\walk_end_1.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loom1\Environment\Walking\Walk_1\walk_end_1_1		372160

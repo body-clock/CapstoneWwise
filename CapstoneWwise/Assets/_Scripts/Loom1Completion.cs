@@ -23,12 +23,14 @@ public class Loom1Completion : MonoBehaviour
     void Start()
     {
         thisCam = GetComponent<Camera>();
+        thisCam.enabled = false;
     }
     
     void Update()
     {
         if (ready)
         {
+            thisCam.enabled = true;
             StartCoroutine(CameraCutscene());
             ready = false;
         }

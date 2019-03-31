@@ -112,6 +112,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Candle_Ambience_Event" ID="{65208BDB-73AB-48D5-B91F-19B1F43761B5}">
+					<ChildrenList>
+						<Action Name="" ID="{975EB3F4-DB09-4426-9286-09CD72950396}" ShortID="207560384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Candle_Ambience" ID="{3DA19109-FBDD-4C19-B01B-49BE022465BA}" WorkUnitID="{A3D86DC8-BBB5-4C21-BCF1-AC18A0327DCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

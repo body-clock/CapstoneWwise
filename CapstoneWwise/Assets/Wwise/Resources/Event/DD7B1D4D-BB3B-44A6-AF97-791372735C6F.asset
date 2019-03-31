@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
   m_Name: DD7B1D4D-BB3B-44A6-AF97-791372735C6F
   m_EditorClassIdentifier: 
-  objectName: Jump_Up_Event
-  id: 318426706
+  objectName: Play_Jump_Up_Event
+  id: 4172831283
   guid: DD7B1D4D-BB3B-44A6-AF97-791372735C6F

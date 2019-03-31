@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
   m_Name: 5F74EE49-9341-4A77-9677-B1A737460DDD
   m_EditorClassIdentifier: 
-  objectName: Walk_Event
-  id: 1929621039
+  objectName: Play_Walk_Event
+  id: 2687346008
   guid: 5F74EE49-9341-4A77-9677-B1A737460DDD

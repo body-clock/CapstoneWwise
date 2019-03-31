@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
   m_Name: FF2B56C0-BF7A-4899-8874-66DD76385607
   m_EditorClassIdentifier: 
-  objectName: Jump_Land_Event
-  id: 4055035850
+  objectName: Play_Jump_Land_Event
+  id: 1089434027
   guid: FF2B56C0-BF7A-4899-8874-66DD76385607

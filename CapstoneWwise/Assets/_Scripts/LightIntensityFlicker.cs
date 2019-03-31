@@ -8,11 +8,14 @@ public class LightIntensityFlicker : MonoBehaviour
 
     private Light myLight;
     private float t = 0f;
+
+    public GameObject flame;
     
     // Start is called before the first frame update
     void Start()
     {
         myLight = GetComponent<Light>();
+        flame.SetActive(true);
     }
 
     // Update is called once per frame

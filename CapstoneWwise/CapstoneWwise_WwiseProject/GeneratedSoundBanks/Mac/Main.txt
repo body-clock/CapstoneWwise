@@ -1,11 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
-	318426706	Jump_Up_Event			\Default Work Unit\Jump_Up_Event	
-	749420382	Candle_Strike_Event			\Default Work Unit\Candle_Strike_Event	
-	1880450288	Walk_Stop_Event			\Default Work Unit\Walk_Stop_Event	
-	1929621039	Walk_Event			\Default Work Unit\Walk_Event	
+	1089434027	Play_Jump_Land_Event			\Default Work Unit\Play_Jump_Land_Event	
 	2502199005	Play_Rising_Texture_Event			\Default Work Unit\Play_Rising_Texture_Event	
+	2687346008	Play_Walk_Event			\Default Work Unit\Play_Walk_Event	
+	2846730698	Stop_Walk_Event			\Default Work Unit\Stop_Walk_Event	
 	2984240761	Play_Ocean_Event			\Default Work Unit\Play_Ocean_Event	
-	4055035850	Jump_Land_Event			\Default Work Unit\Jump_Land_Event	
+	3150360067	Play_Candle_Strike_Event			\Default Work Unit\Play_Candle_Strike_Event	
+	4172831283	Play_Jump_Up_Event			\Default Work Unit\Play_Jump_Up_Event	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1735130781	Aliasing	Wwise Tremolo			

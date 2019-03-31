@@ -21,13 +21,13 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="749420382" Name="Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Candle_Strike_Event" MaxAttenuation="10.000000"/>
-				<Event Id="4055035850" Name="Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Jump_Land_Event"/>
-				<Event Id="318426706" Name="Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Jump_Up_Event"/>
+				<Event Id="3150360067" Name="Play_Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Strike_Event" MaxAttenuation="10.000000"/>
+				<Event Id="1089434027" Name="Play_Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Land_Event"/>
+				<Event Id="4172831283" Name="Play_Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Up_Event"/>
 				<Event Id="2984240761" Name="Play_Ocean_Event" ObjectPath="\Events\Default Work Unit\Play_Ocean_Event"/>
 				<Event Id="2502199005" Name="Play_Rising_Texture_Event" ObjectPath="\Events\Default Work Unit\Play_Rising_Texture_Event" MaxAttenuation="50.000000"/>
-				<Event Id="1929621039" Name="Walk_Event" ObjectPath="\Events\Default Work Unit\Walk_Event" MaxAttenuation="50.000000"/>
-				<Event Id="1880450288" Name="Walk_Stop_Event" ObjectPath="\Events\Default Work Unit\Walk_Stop_Event" MaxAttenuation="0.000000"/>
+				<Event Id="2687346008" Name="Play_Walk_Event" ObjectPath="\Events\Default Work Unit\Play_Walk_Event" MaxAttenuation="50.000000"/>
+				<Event Id="2846730698" Name="Stop_Walk_Event" ObjectPath="\Events\Default Work Unit\Stop_Walk_Event" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="653456" Language="SFX">

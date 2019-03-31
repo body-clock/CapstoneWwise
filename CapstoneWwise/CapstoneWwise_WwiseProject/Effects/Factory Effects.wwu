@@ -585,7 +585,7 @@
 								<Effect Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="60"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="333"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 										<Property Name="OnOffBand3" Type="bool" Value="False"/>
 									</PropertyList>
@@ -1918,7 +1918,7 @@
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="19"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="100"/>
-								<Property Name="ModWaveform" Type="int32" Value="4"/>
+								<Property Name="ModWaveform" Type="int32" Value="3"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">

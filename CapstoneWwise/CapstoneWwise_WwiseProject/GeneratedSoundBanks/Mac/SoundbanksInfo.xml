@@ -21,8 +21,8 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="924341825" Name="Play_Candle_Ambience_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Ambience_Event" MaxAttenuation="10.000000"/>
-				<Event Id="3150360067" Name="Play_Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Strike_Event" MaxAttenuation="10.000000"/>
+				<Event Id="924341825" Name="Play_Candle_Ambience_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Ambience_Event" MaxAttenuation="20.000000"/>
+				<Event Id="3150360067" Name="Play_Candle_Strike_Event" ObjectPath="\Events\Default Work Unit\Play_Candle_Strike_Event" MaxAttenuation="20.000000"/>
 				<Event Id="1089434027" Name="Play_Jump_Land_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Land_Event"/>
 				<Event Id="4172831283" Name="Play_Jump_Up_Event" ObjectPath="\Events\Default Work Unit\Play_Jump_Up_Event"/>
 				<Event Id="2984240761" Name="Play_Ocean_Event" ObjectPath="\Events\Default Work Unit\Play_Ocean_Event"/>
@@ -46,6 +46,10 @@
 				<File Id="138263036" Language="SFX">
 					<ShortName>candle_3.wav</ShortName>
 					<Path>SFX\candle_3_59DDA0C8.wem</Path>
+				</File>
+				<File Id="144563167" Language="SFX">
+					<ShortName>rising_texture_loop.wav</ShortName>
+					<Path>SFX\rising_texture_loop_8956FC97.wem</Path>
 				</File>
 				<File Id="155211066" Language="SFX">
 					<ShortName>Ocean1.wav</ShortName>
@@ -106,10 +110,6 @@
 				<File Id="710008340" Language="SFX">
 					<ShortName>walk_sustain_3.1.wav</ShortName>
 					<Path>SFX\walk_sustain_3.1_8956FC97.wem</Path>
-				</File>
-				<File Id="720071442" Language="SFX">
-					<ShortName>rising_texture_loop.wav</ShortName>
-					<Path>SFX\rising_texture_loop_8956FC97.wem</Path>
 				</File>
 				<File Id="753621482" Language="SFX">
 					<ShortName>jump_land.wav</ShortName>

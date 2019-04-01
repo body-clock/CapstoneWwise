@@ -573,7 +573,7 @@
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -881,7 +881,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -897,13 +897,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" ShortID="720071442">
+										<AudioFileSource Name="rising_texture_loop_v2" ID="{054DB39A-F597-41FB-B70C-AF127BDCE016}" ShortID="681567009">
+											<Language>SFX</Language>
+											<AudioFile>rising_texture_loop_v2.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="rising_texture_loop" ID="{5462B807-EAA8-4268-89AD-B8841EC1C694}" ShortID="144563167">
 											<Language>SFX</Language>
 											<AudioFile>rising_texture_loop.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="rising_texture_loop" ID="{2E781916-A9AA-4270-BB70-A16A3F25AB48}" Platform="Linked"/>
+										<ActiveSource Name="rising_texture_loop" ID="{5462B807-EAA8-4268-89AD-B8841EC1C694}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

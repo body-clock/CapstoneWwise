@@ -6,6 +6,7 @@
         _CenterX ("Center X", Float) = 0.5
         _CenterY ("Center Y", Float) = 0.5
         _Transparency ("Transparency", Float) = 0.5
+        _DomeHeight ("Dome Height", Float) = 280.0
 
     }
     SubShader
@@ -33,12 +34,18 @@
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+                float3 worldPos : TEXCOORD1;
             };
-
+            
+            
+            float remap(float value, float low1, float high1, float low2, float high2) {
+                return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
+            }
 
             v2f vert (appdata v)
             {
                 v2f o;
+                o.worldPos = mul(unity_ObjectToWorld, v.vertex);
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
                 return o;
@@ -49,6 +56,7 @@
             float _CenterX;
             float _CenterY;
             float _Transparency;
+            float _DomeHeight;
 
             fixed4 frag (v2f i) : SV_Target
             {
@@ -58,10 +66,11 @@
                 float trueDist = sqrt(pow(xDist, 2) + pow(yDist, 2))/2;
                 float relativeDist = saturate(trueDist);
                 
-                //float transparentVal = saturate(i.vertex.y);
-                //transparentVal = _Transparency + 1 - (transparentVal / (1 / _Transparency));
+                float heightScale = remap(i.worldPos.y, 0, _DomeHeight, 1 - _Transparency, 1);
                 
-                float4 col = float4(tex2D(_GradientTex, float2(relativeDist, 0.5)).rgb, _Transparency);
+                float transparency = 1 - heightScale;
+                
+                float4 col = float4(tex2D(_GradientTex, float2(relativeDist, 0.5)).rgb, transparency);
                 
                 
                 return col;

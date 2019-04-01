@@ -33,6 +33,7 @@ public class LoomTrigger : MonoBehaviour
         startPos = loom.transform.position;
         lights = new bool[numLights];
         cutSceneReady = true;
+        loom.SetActive(false);
     }
 
     // Update is called once per frame
@@ -75,7 +76,9 @@ public class LoomTrigger : MonoBehaviour
             for (int i = 0; i < path.Length; i++)
             {
                 path[i].readyToEmerge = true;
+                
             }
+            loom.SetActive(true);
         }
     }
     

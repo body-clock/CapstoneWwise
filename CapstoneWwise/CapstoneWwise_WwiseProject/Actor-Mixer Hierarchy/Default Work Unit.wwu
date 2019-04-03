@@ -34,6 +34,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<ActorMixer Name="Jumping" ID="{CC84C5A9-2B6C-4A9E-8EAE-B43B0D661767}" ShortID="495599863">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
@@ -142,7 +149,7 @@
 											<ObjectRef Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+											<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -591,7 +598,7 @@
 											<ObjectRef Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+											<ObjectRef Name="Loom1_CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -967,6 +974,275 @@
 								<ActiveSource Name="Ocean1" ID="{66D2D0E4-A1A7-47B5-988E-38A982EA3932}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Loom2" ID="{6E28692B-FEC4-42C7-A601-1057B3AC11CE}" ShortID="782453694">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Environment" ID="{CFB5709B-30A2-43CA-8624-BBA4BC409F22}" ShortID="125149528">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Loom2_Walking" ID="{1B9770FE-BEF1-49DE-ADCF-CB024E649BAF}" ShortID="238794753">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Walking Attenuation" ID="{845BCFB9-55C1-4968-91E9-2B14A21D7B91}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Loom2_WalkDecay" ID="{7513E503-4500-4273-BF43-BA6A1DE49FB4}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="loom2_walk1" ID="{9F3B5FC4-23E5-4F5A-B2EB-A22B83F558AD}" ShortID="247673118">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk1" ID="{81FCD462-4A5F-4A3E-8509-14F584A2EE67}" ShortID="5905008">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk1" ID="{81FCD462-4A5F-4A3E-8509-14F584A2EE67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk2" ID="{F9AAAF29-DA3D-4DB3-8BDC-6377818CA560}" ShortID="485320061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk2" ID="{DDEBCB16-ECE1-46FC-B0D5-E33699EC344C}" ShortID="474095687">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk2" ID="{DDEBCB16-ECE1-46FC-B0D5-E33699EC344C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk3" ID="{CBABCAF0-89F6-4978-9A77-313C9CA71B43}" ShortID="800800495">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk3" ID="{BFBAF740-C830-4DBF-B577-9791A407946A}" ShortID="362286137">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk3" ID="{BFBAF740-C830-4DBF-B577-9791A407946A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk4" ID="{60956CDA-7806-4347-937B-D44AA71BF779}" ShortID="306337548">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk4" ID="{6647C5B7-1E86-45B6-AE9D-73356A3DE8BA}" ShortID="580597318">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk4" ID="{6647C5B7-1E86-45B6-AE9D-73356A3DE8BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk5" ID="{A9646765-FA8C-4EB6-AAA4-259E88E2F130}" ShortID="10325799">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk5" ID="{AEDC675A-C3FA-4456-A572-A42F1197C8A1}" ShortID="990941897">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk5" ID="{AEDC675A-C3FA-4456-A572-A42F1197C8A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk6" ID="{ACADCEA5-9EC3-4F38-ACA3-1F629E65B31F}" ShortID="482033002">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk6" ID="{D8831DAF-9142-4632-B0E1-6C570526F3B5}" ShortID="444208063">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk6" ID="{D8831DAF-9142-4632-B0E1-6C570526F3B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk7" ID="{BB1EEE65-26E9-42DA-885A-238116974361}" ShortID="1053907457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk7" ID="{7A8335C4-F1F6-41E5-A7A0-F1C3F69D7197}" ShortID="142565857">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk7" ID="{7A8335C4-F1F6-41E5-A7A0-F1C3F69D7197}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_walk8" ID="{4883A21B-BF82-4BBF-8EC0-6CE004324C2A}" ShortID="928585602">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_walk8" ID="{D7A6A351-F826-4E60-84C0-5CAD8D3EDA37}" ShortID="1058971860">
+													<Language>SFX</Language>
+													<AudioFile>loom2_walk8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_walk8" ID="{D7A6A351-F826-4E60-84C0-5CAD8D3EDA37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="loom2_walk1" ID="{9F3B5FC4-23E5-4F5A-B2EB-A22B83F558AD}"/>
+										<ItemRef Name="loom2_walk2" ID="{F9AAAF29-DA3D-4DB3-8BDC-6377818CA560}"/>
+										<ItemRef Name="loom2_walk3" ID="{CBABCAF0-89F6-4978-9A77-313C9CA71B43}"/>
+										<ItemRef Name="loom2_walk4" ID="{60956CDA-7806-4347-937B-D44AA71BF779}"/>
+										<ItemRef Name="loom2_walk5" ID="{A9646765-FA8C-4EB6-AAA4-259E88E2F130}"/>
+										<ItemRef Name="loom2_walk6" ID="{ACADCEA5-9EC3-4F38-ACA3-1F629E65B31F}"/>
+										<ItemRef Name="loom2_walk7" ID="{BB1EEE65-26E9-42DA-885A-238116974361}"/>
+										<ItemRef Name="loom2_walk8" ID="{4883A21B-BF82-4BBF-8EC0-6CE004324C2A}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="loom2_bass_texture" ID="{857D6CF4-50A5-46D2-A067-DE7965864B4A}" ShortID="409528724">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Loom2_Bass_Texture_Attenuation" ID="{DD9F079E-58B7-431F-B83A-9CDE20D5842E}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="loom2_bass_texture" ID="{A0D07D2F-7E45-402D-A547-A00BC97D1270}" ShortID="95046207">
+											<Language>SFX</Language>
+											<AudioFile>loom2_bass_texture.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="loom2_bass_texture" ID="{A0D07D2F-7E45-402D-A547-A00BC97D1270}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

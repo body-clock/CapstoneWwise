@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
   m_Name: FDC9B1CF-7D29-4E73-8524-4CFB6A3884DC
   m_EditorClassIdentifier: 
-  objectName: Play_Rising_Texture_Event
-  id: 2502199005
+  objectName: Loom1_Play_Rising_Texture_Event
+  id: 2797264112
   guid: FDC9B1CF-7D29-4E73-8524-4CFB6A3884DC

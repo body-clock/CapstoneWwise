@@ -1,12 +1,15 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	7184428	Loom2			\Default Work Unit\Master Audio Bus\Loom2	
+	7184431	Loom1			\Default Work Unit\Master Audio Bus\Loom1	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
-	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Loom1\Environment	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1239548273	CandleVerb			\Default Work Unit\Master Audio Bus\Environment\CandleVerb	
+	475597662	Loom1_CandleVerb			\Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_CandleVerb	
+	511694909	Loom1_WalkDecay			\Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_WalkDecay	
+	3240738094	Loom2_WalkDecay			\Default Work Unit\Master Audio Bus\Loom2\Loom2_WalkDecay	
 	3302700529	JumpReverb			\Default Work Unit\Master Audio Bus\Player\JumpReverb	
-	4107115080	WalkDecay			\Default Work Unit\Master Audio Bus\Environment\WalkDecay	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1590660382	Nearly_Forever	Wwise Delay			

@@ -66,7 +66,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_startPosition: {x: 0, y: 0, z: 0}
+  Testing: 0
   m_IsWalking: 0
+  m_canSprint: 0
   m_WalkSpeed: 3
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
@@ -178,6 +181,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 0}
   m_LandSound: {fileID: 0}
+  canWalk: 0
 --- !u!54 &5400000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -305,22 +309,12 @@ MonoBehaviour:
   Jump_Up_Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b9048409e20c1a74fa22fbcdf19b4935,
+    WwiseObjectReference: {fileID: 11400000, guid: 9c59f20a592507e488020a615ede5f74,
       type: 2}
   Jump_Land_Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8c9e26a69cc7d914ca0d14bf61e73e66,
-      type: 2}
-  Walk_Event:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7bcdc4222e60d08428e14f4cb7c29a1d,
-      type: 2}
-  Walk_Stop_Event:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2f52a8bf3ab5d3743a4806d2124294a8,
+    WwiseObjectReference: {fileID: 11400000, guid: dfc3621f6beee544781500f3516c72d8,
       type: 2}
 --- !u!1 &100002
 GameObject:
@@ -460,8 +454,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4e78ed3b7879c0243833de008799d03f,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0

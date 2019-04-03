@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8693274761c1e6c44ab766f87f530dfe, type: 3}
   m_Name: E314A6A5-67AB-4B1E-95B7-7A3756105A76
   m_EditorClassIdentifier: 
-  objectName: Stop_Walk_Event
-  id: 2846730698
+  objectName: Loom1_Stop_Walk_Event
+  id: 110069035
   guid: E314A6A5-67AB-4B1E-95B7-7A3756105A76

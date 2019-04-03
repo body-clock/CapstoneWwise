@@ -21,18 +21,43 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}">
+						<Bus Name="Loom1" ID="{05FE8BC9-1F3C-483C-87F5-2B606DBBDCE1}">
 							<ChildrenList>
-								<AuxBus Name="WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}">
+								<Bus Name="Environment" ID="{ABFCFBD7-BDF4-42A4-9863-36500772F31F}">
+									<ChildrenList>
+										<AuxBus Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}">
+											<ReferenceList>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="Loom1_CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}">
+											<ReferenceList>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Loom2" ID="{63825B78-5A17-40F4-A528-A59D4741F267}">
+							<ChildrenList>
+								<AuxBus Name="Loom2_WalkDecay" ID="{7513E503-4500-4273-BF43-BA6A1DE49FB4}">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
 											<ObjectRef Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
-									</ReferenceList>
-								</AuxBus>
-								<AuxBus Name="CandleVerb" ID="{B330579F-D63B-4E38-9B46-C21AECD38ED6}">
-									<ReferenceList>
-										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+										<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>

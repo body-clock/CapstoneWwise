@@ -37,17 +37,17 @@
             {
                 float4 vertex : POSITION;
                 float2 noiseUV : TEXCOORD0;
-                float2 noiseUV2 : TEXCOORD1;
-                float2 flameUV : TEXCOORD2;
+                float2 noiseUV2 : TEXCOORD2;
+                float2 flameUV : TEXCOORD3;
             };
 
             struct v2f
             {
                 float2 noiseUV : TEXCOORD0;
-                float2 noiseUV2 : TEXCOORD1;
-                float2 flameUV : TEXCOORD2;
-                UNITY_FOG_COORDS(1)
+                float2 noiseUV2 : TEXCOORD2;
+                float2 flameUV : TEXCOORD3;
                 float4 vertex : SV_POSITION;
+                UNITY_FOG_COORDS(1)
             };
 
             sampler2D _NoiseTex;
@@ -63,7 +63,7 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.noiseUV = TRANSFORM_TEX(v.noiseUV, _NoiseTex);
                 o.noiseUV2 = TRANSFORM_TEX(v.noiseUV2, _NoiseTex2);
-                o.flameUV = TRANSFORM_TEX(v.flameUV, _FlameMask)
+                o.flameUV = TRANSFORM_TEX(v.flameUV, _FlameMask);
                 UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }

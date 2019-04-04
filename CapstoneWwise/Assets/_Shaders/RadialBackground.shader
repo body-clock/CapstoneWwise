@@ -21,6 +21,7 @@
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
 
@@ -34,7 +35,8 @@
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
-                float3 worldPos : TEXCOORD1;
+                float3 worldPos : TEXCOORD2;
+                UNITY_FOG_COORDS(1)
             };
             
             
@@ -48,6 +50,7 @@
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex);
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
+                UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
             
@@ -72,6 +75,7 @@
                 
                 float4 col = float4(tex2D(_GradientTex, float2(relativeDist, 0.5)).rgb, transparency);
                 
+                UNITY_APPLY_FOG(i.fogCoord, col);
                 
                 return col;
             }

@@ -80,6 +80,7 @@ public class LoomTrigger : MonoBehaviour
             }
             loom.SetActive(true);
         }
+
     }
     
 }

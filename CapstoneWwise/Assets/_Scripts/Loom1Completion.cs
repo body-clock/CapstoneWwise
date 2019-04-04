@@ -27,7 +27,6 @@ public class Loom1Completion : MonoBehaviour
     {
         if (ready)
         {
-            thisCam.enabled = true;
             StartCoroutine(CameraCutscene());
             ready = false;
         }
@@ -36,7 +35,7 @@ public class Loom1Completion : MonoBehaviour
     IEnumerator CameraCutscene()
     {
         yield return new WaitForSeconds(0.8f);
-        
+        thisCam.enabled = true;
         playerController.canWalk = false;
         playerCam.SetActive(false);
 

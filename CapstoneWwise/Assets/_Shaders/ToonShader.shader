@@ -25,12 +25,10 @@
     }
     SubShader
     {
-        Tags { "Queue"="Transparent" }
+        Tags {"LightMode"="ForwardBase"}
 
         Pass
         {
-            Blend SrcAlpha OneMinusSrcAlpha
-            ZWrite Off
         
             CGPROGRAM
 
@@ -38,9 +36,14 @@
             
             #pragma vertex vert
             #pragma fragment frag
-
+            #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "Lighting.cginc"
+            
+            #pragma multi_compile_fwdbase
+            
+            #include "AutoLight.cginc"
             
             float4 alphaBlend (float4 top, float4 bottom) {
                 float3 color = (top.rgb * top.a) + (bottom.rgb * (1 - top.a));
@@ -58,11 +61,14 @@
 
             struct v2f
             {
-                float4 vertex : SV_POSITION;
-                float2 distortUV : TEXCOORD1;
-                float4 screenPosition : TEXCOORD2;
+                float4 pos : SV_POSITION;
+                float2 distortUV : TEXCOORD2;
+                float4 screenPosition : TEXCOORD3;
                 float2 noiseUV : TEXCOORD0;
                 float3 viewNormal : NORMAL;
+                UNITY_FOG_COORDS(1)
+                //SHADOW_COORDS(1)
+
             };
 
             
@@ -73,17 +79,19 @@
             float4 _SurfaceDistortion_ST;
             
 
-            v2f vert (vertIn v)
+            v2f vert (appdata_base v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.screenPosition = ComputeScreenPos(o.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
+                o.screenPosition = ComputeScreenPos(o.pos);
                 
-                o.noiseUV = TRANSFORM_TEX(v.uv, _SurfaceNoise);
-                o.distortUV = TRANSFORM_TEX(v.uv, _SurfaceDistortion);
+                o.noiseUV = TRANSFORM_TEX(v.texcoord, _SurfaceNoise);
+                o.distortUV = TRANSFORM_TEX(v.texcoord, _SurfaceDistortion);
                 
                 o.viewNormal = COMPUTE_VIEW_NORMAL;
                 
+                UNITY_TRANSFER_FOG(o,o.pos);
+                //TRANSFER_SHADOW(o)
                 return o;
             }
             
@@ -125,10 +133,19 @@
                 float surfaceNoiseSample = tex2D(_SurfaceNoise, noiseUV).r;
                 float surfaceNoiseCutoff = foamDepthDifference01 * _SurfaceNoiseCutoff;
                 float surfaceNoise = smoothstep(surfaceNoiseCutoff - SMOOTHSTEP_AA, surfaceNoiseCutoff + SMOOTHSTEP_AA, surfaceNoiseSample);
+                
+                float4 output = alphaBlend(surfaceNoise.xxxx, waterColor);
+                
+                //fixed shadow = SHADOW_ATTENUATION(i);
 
-                return waterColor + surfaceNoise;
+                //output = output * shadow;
+
+                UNITY_APPLY_FOG(i.fogCoord, output);
+                return output;
             }
             ENDCG
         }
+        
+        
     }
 }

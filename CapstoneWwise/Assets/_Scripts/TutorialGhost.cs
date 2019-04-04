@@ -38,5 +38,9 @@ public class TutorialGhost : MonoBehaviour
         
         yield return new WaitForSeconds(ledgeWaitTime);
         rBody.AddForce((transform.up - transform.forward)*jumpStrength, ForceMode.Impulse);
+        yield return new WaitForSeconds(3f);
+        Destroy(transform.gameObject);
     }
+
+    
 }

@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3d684592d239124997918d18c80f6625
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139048149
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e936e1e40aa89349a910cbfceafe52b4
     GuidInternal: 
-    m_lastTime: -8586472729384775808
+    m_lastTime: -8586472707953492753
     List:
     - name: JumpReverb
       guid: 28e2f44fd63cdb47bbfa334125faa467
@@ -38,7 +38,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: JumpReverb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Player/JumpReverb
+      Path: Default Work Unit\Master Audio Bus\Player\JumpReverb
     - name: Loom1_CandleVerb
       guid: 9f5730b33bd6384e9b46c21aecd38ed6
       id: 475597662
@@ -53,7 +53,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Loom1_CandleVerb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Loom1/Environment/Loom1_CandleVerb
+      Path: Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_CandleVerb
     - name: Loom1_WalkDecay
       guid: 4aa4c27b70178445b4484f2b7e2c3162
       id: 511694909
@@ -68,7 +68,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Loom1_WalkDecay
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Loom1/Environment/Loom1_WalkDecay
+      Path: Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_WalkDecay
     - name: Loom2_WalkDecay
       guid: 03e5137500457342bf43ba6a1de49fb4
       id: 3240738094
@@ -81,13 +81,13 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Loom2_WalkDecay
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Loom2/Loom2_WalkDecay
+      Path: Default Work Unit\Master Audio Bus\Loom2\Loom2_WalkDecay
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2388a2f2cbe450428ca6b702cf731e8e
     GuidInternal: 
-    m_lastTime: -8586472725814775808
+    m_lastTime: -8586471755834460454
     List:
     - name: Main
       guid: 0e733bffb895554182b182d9425bd88c
@@ -97,19 +97,31 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Main
         ObjectType: 7
-      Path: Default Work Unit/Main
+      Path: Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2fedcb65b1008440a1a591015ce1173b
     GuidInternal: 
-    m_lastTime: -8586472725814775808
-    List: []
-  - PhysicalPath: Events/Environment.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+    m_lastTime: -8586471760159555381
+    List:
+    - name: Play_OceanSplash_Event
+      guid: 79f86aadaf009e4e92f26a16165d6000
+      id: 2977236588
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_OceanSplash_Event
+        ObjectType: 3
+      Path: Default Work Unit\Play_OceanSplash_Event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Environment.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 7a7954d47e7b3c42bebf50d618ad1887
     GuidInternal: 
-    m_lastTime: -8586472756944775808
+    m_lastTime: -8586472704734240718
     List:
     - name: Play_Ocean_Event
       guid: 81490432b78fe44fb4875e2275374e17
@@ -121,15 +133,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_Ocean_Event
         ObjectType: 3
-      Path: Default Work Unit/Environment/Play_Ocean_Event
+      Path: Default Work Unit\Environment\Play_Ocean_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-  - PhysicalPath: Events/Loom1.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Loom1.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: a27e8dadf7bfe7458e9f5415a19f371b
     GuidInternal: 
-    m_lastTime: -8586472756944775808
+    m_lastTime: -8586472704734200668
     List:
     - name: Loom1_Play_Candle_Ambience_Event
       guid: db8b2065ab73d548b91f19b1f43761b5
@@ -141,7 +153,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Candle_Ambience_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Candle_Ambience_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Candle_Ambience_Event
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
@@ -155,7 +167,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Candle_Strike_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Candle_Strike_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Candle_Strike_Event
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
@@ -169,7 +181,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Jump_Land_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Jump_Land_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Jump_Land_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -183,7 +195,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Jump_Up_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Jump_Up_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Jump_Up_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -197,7 +209,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Rising_Texture_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Rising_Texture_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Rising_Texture_Event
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
@@ -211,7 +223,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Play_Walk_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Play_Walk_Event
+      Path: Default Work Unit\Loom1\Loom1_Play_Walk_Event
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
@@ -225,15 +237,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom1_Stop_Walk_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom1/Loom1_Stop_Walk_Event
+      Path: Default Work Unit\Loom1\Loom1_Stop_Walk_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-  - PhysicalPath: Events/Loom2.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Loom2.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 2abd804996968549bc9c415981c24cb0
     GuidInternal: 
-    m_lastTime: -8586472722864775808
+    m_lastTime: -8586472704734160647
     List:
     - name: Loom2_Play_Bass_Texture_Event
       guid: e33929c2fb2e4b4f927096acce35eb88
@@ -245,7 +257,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom2_Play_Bass_Texture_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom2/Loom2_Play_Bass_Texture_Event
+      Path: Default Work Unit\Loom2\Loom2_Play_Bass_Texture_Event
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
@@ -259,7 +271,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom2_Play_Walk_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom2/Loom2_Play_Walk_Event
+      Path: Default Work Unit\Loom2\Loom2_Play_Walk_Event
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
@@ -273,42 +285,41 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Loom2_Stop_Walk_Event
         ObjectType: 3
-      Path: Default Work Unit/Loom2/Loom2_Stop_Walk_Event
+      Path: Default Work Unit\Loom2\Loom2_Stop_Walk_Event
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 33c582a9b7934e4d94c89506606c767f
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139628685
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 0bc4b9e351d05a4aa24e52bb3285ccd5
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139208299
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c82cab5dcea36245a36019a529717505
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139868904
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a40543fec9feb147b760484e06ef70bd
     GuidInternal: 
-    m_lastTime: -8586480431784775808
+    m_lastTime: -8586480638139908940
     List: []
   ExpandedItems:
   - /CapstoneWwise_WwiseProject
   - /CapstoneWwise_WwiseProject/Events
   - /CapstoneWwise_WwiseProject/Events/Default Work Unit
-  - /CapstoneWwise_WwiseProject/Events/Default Work Unit/Loom2
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

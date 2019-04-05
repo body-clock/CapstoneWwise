@@ -179,8 +179,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-13" />
     <option name="y" value="-13" />
-    <option name="width" value="2586" />
-    <option name="height" value="1546" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -237,19 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
-    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="USE_MONO" value="0" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="project" />
       <working-dir value="" />
@@ -267,9 +255,6 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -301,21 +286,22 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
-    </list>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

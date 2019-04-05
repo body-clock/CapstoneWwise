@@ -50,27 +50,30 @@
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwise_WwiseIntegrationTemp1\CapstoneWwise_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1553543027" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwise_WwiseIntegrationTemp1\CapstoneWwise_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1553543027" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwise_WwiseIntegrationTemp1\CapstoneWwise_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1553543027" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554084537" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1554084537" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554430869" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1554336088" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\CapstoneWwise_WwiseProject.work.wsettings" DateLow="1554083969" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\CapstoneWwise_WwiseProject.work.wsettings" DateLow="1554310614" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\CapstoneWwise_WwiseProject.wproj" DateLow="1553876301" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1553547257" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1554050200" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Effects\Factory Effects.wwu" DateLow="1554053295" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Events\Default Work Unit.wwu" DateLow="1554053295" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Effects\Factory Effects.wwu" DateLow="1554430869" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Events\Default Work Unit.wwu" DateLow="1554430869" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Events\Environment.wwu" DateLow="1554336412" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Events\Loom1.wwu" DateLow="1554336412" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Events\Loom2.wwu" DateLow="1554336412" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554051635" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1554336090" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1554051041" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Queries\Factory Queries.wwu" DateLow="1553543071" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1554053295" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1554431302" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\States\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\work\Git\CapstoneWwiseRepo\CapstoneWwise\CapstoneWwise_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1553543071" DateHigh="0"/>

@@ -6,6 +6,20 @@
 				<WorkUnit Name="Loom1" ID="{AD8D7EA2-BFF7-45E7-8E9F-5415A19F371B}" PersistMode="Reference"/>
 				<WorkUnit Name="Loom2" ID="{4980BD2A-9696-4985-BC9C-415981C24CB0}" PersistMode="Reference"/>
 				<WorkUnit Name="Environment" ID="{D454797A-7B7E-423C-BEBF-50D618AD1887}" PersistMode="Reference"/>
+				<Event Name="Play_OceanSplash_Event" ID="{AD6AF879-00AF-4E9E-92F2-6A16165D6000}">
+					<ChildrenList>
+						<Action Name="" ID="{EFE24ED8-F10C-4A7B-9EBF-6751EDEDDC36}" ShortID="1066087185">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OceanSplash" ID="{36F179FE-B9C2-47BC-BC03-A019BC2D47AD}" WorkUnitID="{A3D86DC8-BBB5-4C21-BCF1-AC18A0327DCA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

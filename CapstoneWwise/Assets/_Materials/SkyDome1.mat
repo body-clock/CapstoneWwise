@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientTex:
-        m_Texture: {fileID: 2800000, guid: a1bf7b6b439bd0543837c78f5bac8721, type: 3}
+        m_Texture: {fileID: 2800000, guid: 61eb92c3abb12324ea2647f13ebb4d57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -65,7 +65,7 @@ Material:
     - _CenterY: 0.5
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DomeHeight: 280
+    - _DomeHeight: 295
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5

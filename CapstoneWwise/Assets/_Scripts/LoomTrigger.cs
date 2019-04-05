@@ -6,11 +6,12 @@ using UnityEngine;
 public class LoomTrigger : MonoBehaviour
 {
 
+    public GameObject pillar1;
     public GameObject loom;
 
     private Vector3 startPos;
 
-    public Vector3 endPos;
+    private Vector3 endPos;
 
     private float t;
 
@@ -32,9 +33,11 @@ public class LoomTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startPos = loom.transform.position;
+        startPos = pillar1.transform.position;
+        endPos = new Vector3(startPos.x, startPos.y + 6.25f, startPos.z);
         lights = new bool[numLights];
         cutSceneReady = true;
+        pillar1.SetActive(false);
         loom.SetActive(false);
     }
 
@@ -61,10 +64,10 @@ public class LoomTrigger : MonoBehaviour
         {
             t += Time.deltaTime / emergeTime;
 
-            loom.transform.position = Vector3.Lerp(startPos, endPos, t);
+            pillar1.transform.position = Vector3.Lerp(startPos, endPos, t);
         }
 
-        if (Vector3.Distance(loom.transform.position, endPos) < 0.1f)
+        if (Vector3.Distance(pillar1.transform.position, endPos) < 0.1f)
         {
             Destroy(transform.gameObject);
         }
@@ -81,6 +84,7 @@ public class LoomTrigger : MonoBehaviour
                 path[i].readyToEmerge = true;
                 
             }
+            pillar1.SetActive(true);
             loom.SetActive(true);
         }
 

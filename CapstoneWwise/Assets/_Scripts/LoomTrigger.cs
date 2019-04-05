@@ -27,6 +27,8 @@ public class LoomTrigger : MonoBehaviour
     public PathPillar[] path;
 
     public Loom1Completion cutScene;
+
+    public AK.Wwise.Event OceanSplashEvent;
     
     // Start is called before the first frame update
     void Start()
@@ -75,6 +77,7 @@ public class LoomTrigger : MonoBehaviour
     {
         if (coll.CompareTag("Player") && fullyLit)
         {
+            OceanSplashEvent.Post(gameObject);
             emerging = true;
             for (int i = 0; i < path.Length; i++)
             {

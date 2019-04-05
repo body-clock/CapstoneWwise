@@ -4885,7 +4885,7 @@ GameObject:
   - component: {fileID: 205231845}
   - component: {fileID: 205231844}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: RisingTextureEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4917,7 +4917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5de86feb75107d44999e5096452dee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
@@ -4983,7 +4983,6 @@ GameObject:
   m_Component:
   - component: {fileID: 207871024}
   - component: {fileID: 207871027}
-  - component: {fileID: 207871026}
   - component: {fileID: 207871025}
   - component: {fileID: 207871029}
   - component: {fileID: 207871028}
@@ -5032,14 +5031,6 @@ MonoBehaviour:
   - 0.6
   ghostFriend: {fileID: 1314021088}
   playerCam: {fileID: 1571070767}
---- !u!81 &207871026
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207871023}
-  m_Enabled: 1
 --- !u!20 &207871027
 Camera:
   m_ObjectHideFlags: 0
@@ -5094,7 +5085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf51a75a316d2a4da0f42d5fff17416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDefaultListener: 1
+  isDefaultListener: 0
   listenerId: 0
 --- !u!114 &207871029
 MonoBehaviour:
@@ -5907,7 +5898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -79.4
+      value: -133.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5915,7 +5906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 46.8
+      value: 100.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x

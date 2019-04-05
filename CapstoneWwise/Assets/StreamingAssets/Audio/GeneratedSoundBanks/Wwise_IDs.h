@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID LOOM2_PLAY_WALK_EVENT = 2785362746U;
         static const AkUniqueID LOOM2_STOP_WALK_EVENT = 2693566612U;
         static const AkUniqueID PLAY_OCEAN_EVENT = 2984240761U;
+        static const AkUniqueID PLAY_OCEANSPLASH_EVENT = 2977236588U;
     } // namespace EVENTS
 
     namespace BANKS

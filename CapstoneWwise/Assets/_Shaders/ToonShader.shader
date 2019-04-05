@@ -22,6 +22,12 @@
         _FoamMaxDistance("Foam Max Distance", Float) = 0.4
         // control the depth of other foam
         _FoamMinDistance("Foam Min Distance", Float) = 0.04
+        // control the change in color in terms of Distance from player
+        _PlayerPos("Player Position", Vector) = (1, 1, 1, 1)
+        // half the scale of the water quad... to be used for distance stuff
+        _HalfScale("Half Water Scale", Float) = 450
+        // Color of the horizon
+        _HorizonColor("Horizon Color", Color) = (1, 1, 1, 1)
     }
     SubShader
     {
@@ -51,6 +57,10 @@
                 
                 return float4(color, alpha);
             }
+            
+            float remap(float value, float low1, float high1, float low2, float high2) {
+                return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
+            }
 
             struct vertIn
             {
@@ -64,10 +74,10 @@
                 float4 pos : SV_POSITION;
                 float2 distortUV : TEXCOORD2;
                 float4 screenPosition : TEXCOORD3;
+                float3 worldPosition : TEXCOORD4;
                 float2 noiseUV : TEXCOORD0;
                 float3 viewNormal : NORMAL;
                 UNITY_FOG_COORDS(1)
-                //SHADOW_COORDS(1)
 
             };
 
@@ -82,6 +92,7 @@
             v2f vert (appdata_base v)
             {
                 v2f o;
+                o.worldPosition = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.screenPosition = ComputeScreenPos(o.pos);
                 
@@ -91,7 +102,6 @@
                 o.viewNormal = COMPUTE_VIEW_NORMAL;
                 
                 UNITY_TRANSFER_FOG(o,o.pos);
-                //TRANSFER_SHADOW(o)
                 return o;
             }
             
@@ -109,6 +119,10 @@
             sampler2D _CameraNormalsTexture;
             
             float _SurfaceDistortionAmount;
+            
+            float4 _PlayerPos;
+            float4 _HorizonColor;
+            float _HalfScale;
 
             
             fixed4 frag (v2f i) : SV_Target
@@ -134,11 +148,15 @@
                 float surfaceNoiseCutoff = foamDepthDifference01 * _SurfaceNoiseCutoff;
                 float surfaceNoise = smoothstep(surfaceNoiseCutoff - SMOOTHSTEP_AA, surfaceNoiseCutoff + SMOOTHSTEP_AA, surfaceNoiseSample);
                 
-                float4 output = alphaBlend(surfaceNoise.xxxx, waterColor);
+                float rawDistance = sqrt(pow(i.worldPosition.x - _PlayerPos.x, 2) + pow(i.worldPosition.z - _PlayerPos.z, 2));
                 
-                //fixed shadow = SHADOW_ATTENUATION(i);
-
-                //output = output * shadow;
+                float remapedDist = remap(rawDistance, 0.0, _HalfScale, 0.0, 1.0);
+                //float falloff = 1 - remapedDist;
+                
+                waterColor = lerp(waterColor, _HorizonColor*0.66, remapedDist);
+                
+                float4 output = alphaBlend(surfaceNoise.xxxx, waterColor);
+               
 
                 UNITY_APPLY_FOG(i.fogCoord, output);
                 return output;

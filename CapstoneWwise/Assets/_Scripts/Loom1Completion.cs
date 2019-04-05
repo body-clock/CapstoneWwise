@@ -43,17 +43,16 @@ public class Loom1Completion : MonoBehaviour
         for (int i = 0; i < cutPositions.Length; i++)
         {
             CameraCut(cutPositions[i]);
+            if (i == cutPositions.Length - 1)
+            {
+                ghostFriend.GetComponent<ParticleSystem>().Play();
+                ghostFriend.StartCoroutine(ghostFriend.JumpTutorial());
+            }
             yield return new WaitForSeconds(cutWaitTimes[i]);
         }
         
 
-        yield return new WaitForSeconds(0.25f);
-
         playerCam.SetActive(true);
-        ghostFriend.GetComponent<ParticleSystem>().Play();
-        ghostFriend.StartCoroutine(ghostFriend.JumpTutorial());
-        
-        yield return new WaitForSeconds(0.5f);
         playerController.canWalk = true;
     }
 

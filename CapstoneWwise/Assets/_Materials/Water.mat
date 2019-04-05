@@ -74,6 +74,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HalfScale: 300
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -87,7 +88,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DepthGradientDeep: {r: 0.065637246, g: 0.1250135, b: 0.23584908, a: 1}
+    - _DepthGradientDeep: {r: 0.0481043, g: 0.11051534, b: 0.21698111, a: 1}
     - _DepthGradientShallow: {r: 0.008410451, g: 0.44519386, b: 0.5943396, a: 0.725}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HorizonColor: {r: 0.023529412, g: 0.039215688, b: 0.1882353, a: 1}
+    - _PlayerPos: {r: 72.899254, g: 11.058955, b: -103.2797, a: 1}
     - _SurfaceNoiseScroll: {r: 0.03, g: 0.03, b: 0, a: 0}

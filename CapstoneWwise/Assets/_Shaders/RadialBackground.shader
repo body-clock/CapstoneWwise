@@ -69,11 +69,11 @@
                 float trueDist = sqrt(pow(xDist, 2) + pow(yDist, 2))/2;
                 float relativeDist = saturate(trueDist);
                 
-                float heightScale = remap(i.worldPos.y, 0, _DomeHeight, 1 - _Transparency, 1);
+                float heightScale = remap(i.worldPos.y, 0, _DomeHeight, 0, 1);
                 
                 float transparency = 1 - heightScale;
                 
-                float4 col = float4(tex2D(_GradientTex, float2(relativeDist, 0.5)).rgb, transparency);
+                float4 col = float4(tex2D(_GradientTex, float2(transparency, 0.5)).rgb * 0.75, 1);
                 
                 UNITY_APPLY_FOG(i.fogCoord, col);
                 

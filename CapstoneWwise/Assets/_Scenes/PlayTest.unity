@@ -5613,6 +5613,11 @@ MonoBehaviour:
   - {fileID: 1255300193}
   - {fileID: 1071229033}
   cutScene: {fileID: 207871025}
+  OceanSplashEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e9e4f9820c77f8f479ebb34211412b4f,
+      type: 2}
 --- !u!65 &409897802
 BoxCollider:
   m_ObjectHideFlags: 0

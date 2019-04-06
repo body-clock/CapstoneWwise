@@ -8,6 +8,8 @@ public class PathPillar : MonoBehaviour
     public GameObject nextPillar;
     public bool loomPillar;
 
+    public GameObject[] fireflies;
+    
 
     private Vector3 startPos;
     private Vector3 endPos;
@@ -42,6 +44,10 @@ public class PathPillar : MonoBehaviour
         if (Vector3.Distance(nextPillar.transform.position, endPos) < 0.1f)
         {
             emerging = false;
+            for (int i = 0; i < fireflies.Length; i++)
+            {
+                fireflies[i].SetActive(true);
+            }
         }
     }
     
@@ -50,6 +56,7 @@ public class PathPillar : MonoBehaviour
         if (coll.CompareTag("Player") && readyToEmerge)
         {
             emerging = true;
+            
         }
     }
 }

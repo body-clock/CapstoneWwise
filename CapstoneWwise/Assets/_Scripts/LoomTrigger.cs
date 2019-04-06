@@ -9,6 +9,8 @@ public class LoomTrigger : MonoBehaviour
     public GameObject pillar1;
     public GameObject loom;
 
+    public GameObject[] fireflies;
+
     private Vector3 startPos;
 
     private Vector3 endPos;
@@ -86,6 +88,11 @@ public class LoomTrigger : MonoBehaviour
             }
             pillar1.SetActive(true);
             loom.SetActive(true);
+
+            for (int i = 0; i < fireflies.Length; i++)
+            {
+                fireflies[i].SetActive(true);
+            }
         }
 
     }

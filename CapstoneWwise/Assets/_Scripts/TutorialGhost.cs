@@ -89,7 +89,7 @@ public class TutorialGhost : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(4f);
         
         stageIdx++;
         

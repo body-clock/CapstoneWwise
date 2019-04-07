@@ -55,6 +55,11 @@ public class TutorialGhost : MonoBehaviour
             startPos = transform.position;
             StartCoroutine(JumpTutorial3());
         }
+
+        if (stageIdx == 5 && Vector3.Distance(transform.position, player.position) < 6f)
+        {
+            StartCoroutine(JumpTutorial4());
+        }
     }
 
     private float t;
@@ -83,6 +88,26 @@ public class TutorialGhost : MonoBehaviour
             transform.position = Vector3.Lerp(startPos, stage3Pos, runAnimationCurve.Evaluate(t));
             yield return null;
         }
+
+        yield return new WaitForSeconds(4f);
+        
+        stageIdx++;
+        
+        
+    }
+    
+    IEnumerator JumpTutorial4()
+    {
+        t = 0;
+        Vector3 startScale = transform.localScale;
+        while (t <= 1f)
+        {
+            t += Time.deltaTime;
+            transform.localScale = Vector3.Lerp(startScale, Vector3.zero, t);
+            yield return null;
+        }
+
+        Destroy(transform.gameObject);
     }
     
 

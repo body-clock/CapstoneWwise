@@ -58,7 +58,7 @@ public class FootprintController : MonoBehaviour
         ParticleSystem.EmitParams myParams = new ParticleSystem.EmitParams();
         myParams.position = pos;
         //myParams.rotation3D = Vector3.up;
-        myParams.startSize = 0.5f;
+        myParams.startSize = Random.Range(0.5f, 1f);
         partSystem.Emit(myParams, 1);
         
         Debug.Log("Emitting");

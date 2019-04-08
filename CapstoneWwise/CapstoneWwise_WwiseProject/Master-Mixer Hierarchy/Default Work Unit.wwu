@@ -64,6 +64,11 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="Transition" ID="{EC838A6E-D505-441D-B375-C46C9CA880E8}">
+							<ChildrenList>
+								<AuxBus Name="Transition_Aux_Bus" ID="{9229E957-B02B-441D-B9CF-534AA3B83A80}"/>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

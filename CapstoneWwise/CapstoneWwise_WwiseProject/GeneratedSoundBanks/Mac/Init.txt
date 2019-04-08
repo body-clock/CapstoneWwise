@@ -3,11 +3,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	7184431	Loom1			\Default Work Unit\Master Audio Bus\Loom1	
 	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\Loom1\Environment	
+	1865857008	Transition			\Default Work Unit\Master Audio Bus\Transition	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	475597662	Loom1_CandleVerb			\Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_CandleVerb	
 	511694909	Loom1_WalkDecay			\Default Work Unit\Master Audio Bus\Loom1\Environment\Loom1_WalkDecay	
+	911329060	Transition_Aux_Bus			\Default Work Unit\Master Audio Bus\Transition\Transition_Aux_Bus	
 	3240738094	Loom2_WalkDecay			\Default Work Unit\Master Audio Bus\Loom2\Loom2_WalkDecay	
 	3302700529	JumpReverb			\Default Work Unit\Master Audio Bus\Player\JumpReverb	
 

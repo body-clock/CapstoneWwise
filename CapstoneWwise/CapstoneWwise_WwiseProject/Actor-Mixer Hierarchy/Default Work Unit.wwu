@@ -1377,7 +1377,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="microtonal blips" ID="{9C9EF053-A2C0-4C59-9FFE-38B064ECDF78}" ShortID="1010479268">
+						<ActorMixer Name="Environment" ID="{BD703E5F-5FC9-4A4A-88FD-C85CE2F91C90}" ShortID="951212535">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
@@ -1387,140 +1387,452 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="microtonal blips" ID="{AAFB65E8-6993-4A92-AB6B-B5AFA9CA5F9F}" ShortID="238631633">
-									<Language>SFX</Language>
-									<AudioFile>microtonal blips.wav</AudioFile>
-								</AudioFileSource>
+								<RandomSequenceContainer Name="Pillar Audio" ID="{EBB7B9B3-DA33-4724-9AD8-8D6C9F6CD834}" ShortID="152827962">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Pillar_Attenuation" ID="{303C8739-6DDC-42A9-8B40-B4211E935E3B}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Transition" ID="{EC838A6E-D505-441D-B375-C46C9CA880E8}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="pillar_1" ID="{CDA96432-73BE-42A2-806E-B41BA8771B8D}" ShortID="1031970291">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pillar_1" ID="{E9330687-2CFD-4199-B81B-C22198D94747}" ShortID="673249859">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.28095203285993"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.24059158312448"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="20.0995918615984"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pillar Audio\pillar_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pillar_1" ID="{E9330687-2CFD-4199-B81B-C22198D94747}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pillar_2" ID="{F07E31E1-429E-4DAD-A31C-548AC251F791}" ShortID="261942236">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pillar_2" ID="{CE08F323-ABBB-4B86-85A3-ED2F4220E28D}" ShortID="118869749">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.0118462823726"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.97148583263716"/>
+														<Property Name="TrimEnd" Type="Real64" Value="20.0473851294904"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pillar Audio\pillar_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pillar_2" ID="{CE08F323-ABBB-4B86-85A3-ED2F4220E28D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pillar_3" ID="{DE364A72-03D8-41E2-A5D6-88EC43B6EA00}" ShortID="495203917">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pillar_3" ID="{1A97A59A-AE57-4BFC-AF20-D1EF6A8B0B6D}" ShortID="93764567">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.0118462823726"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.34500504734057"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="20.0995918615985"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pillar Audio\pillar_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pillar_3" ID="{1A97A59A-AE57-4BFC-AF20-D1EF6A8B0B6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pillar_4" ID="{61D53693-4832-40CC-A514-E6DBC9E39C9B}" ShortID="645127285">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pillar_4" ID="{D1665026-91A5-46D6-B36A-9D17ECA69768}" ShortID="298233022">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.06405301448065"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.97148583263715"/>
+														<Property Name="TrimEnd" Type="Real64" Value="19.9951783973824"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>pillar_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pillar_4" ID="{D1665026-91A5-46D6-B36A-9D17ECA69768}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="pillar_1" ID="{CDA96432-73BE-42A2-806E-B41BA8771B8D}"/>
+										<ItemRef Name="pillar_2" ID="{F07E31E1-429E-4DAD-A31C-548AC251F791}"/>
+										<ItemRef Name="pillar_3" ID="{DE364A72-03D8-41E2-A5D6-88EC43B6EA00}"/>
+										<ItemRef Name="pillar_4" ID="{61D53693-4832-40CC-A514-E6DBC9E39C9B}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Transition Walking" ID="{F53C2CBC-7993-495C-A0B0-A07BCA324C1B}" ShortID="830557483">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8247BFF7-9DCC-4913-9F74-8B23C806D3FC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Transition_Walking_Attenuation" ID="{4F309473-3288-467B-81A7-4EBD5015FB43}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Loom1_WalkDecay" ID="{7BC2A44A-1770-4584-B448-4F2B7E2C3162}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Transition_Walk_1" ID="{74FCD034-E359-46DE-AF25-6D413C2A672A}" ShortID="268690182">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_1" ID="{2F8C1DC2-EB0B-4F69-84C0-1BCF05DA58EB}" ShortID="627351554">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.399122807017544"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.782894736842105"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_1" ID="{2F8C1DC2-EB0B-4F69-84C0-1BCF05DA58EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_10" ID="{ECCD326D-3E60-4682-BFAD-8057EBC748EF}" ShortID="523257598">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_10" ID="{27368AAE-F78B-42C2-9F3C-D425947A4A6A}" ShortID="276512877">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.411184210526316"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.657894736842105"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_10.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_10" ID="{27368AAE-F78B-42C2-9F3C-D425947A4A6A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_11" ID="{36251BFD-E796-4ED0-BD44-C986AB6EAE08}" ShortID="1041264544">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_11" ID="{9E6EC228-5C0A-44C9-B2CC-D8B9878E7150}" ShortID="874215973">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.34046052631579"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.14473684210526"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_11.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_11" ID="{9E6EC228-5C0A-44C9-B2CC-D8B9878E7150}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_12" ID="{E8CA6887-4932-47C2-85F7-2665C5270D15}" ShortID="321906643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_12" ID="{1B06580B-92C0-42B1-B26D-051517ADA2D8}" ShortID="881134447">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.649945115257959"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.91838638858397"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.29204171240395"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_12.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_12" ID="{1B06580B-92C0-42B1-B26D-051517ADA2D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_2" ID="{8A7FE78B-4852-4F1B-A7F7-01154B8F7BE0}" ShortID="631249916">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_2" ID="{AFDFE979-4A53-4F51-9FD3-48B151C9643F}" ShortID="1009680488">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.254386760552174"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.663790453315829"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_2" ID="{AFDFE979-4A53-4F51-9FD3-48B151C9643F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_3" ID="{51AC2BF5-F0AD-40F5-940E-160C4C84C2D6}" ShortID="701268365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_3" ID="{CC91F5C9-F3B7-487C-B3DB-B5B6F7CD781A}" ShortID="915031029">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.217927631578948"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.555098684210526"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_3" ID="{CC91F5C9-F3B7-487C-B3DB-B5B6F7CD781A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_4" ID="{4C31E50A-DFA8-4816-94A5-99A96306B3F2}" ShortID="799902489">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_4" ID="{3E101518-41A0-47A6-BABA-2F51E5E8F597}" ShortID="115469084">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.18640350877193"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.55921052631579"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_4" ID="{3E101518-41A0-47A6-BABA-2F51E5E8F597}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_5" ID="{FA7C1746-B062-4AFC-A2B5-99D035AF4A7D}" ShortID="981989713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_5" ID="{D5436CED-C232-4AD4-AA88-56AFC008BC49}" ShortID="344561399">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.226151315789474"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.470394736842105"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_5" ID="{D5436CED-C232-4AD4-AA88-56AFC008BC49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_6" ID="{CD1888D1-040C-4676-AE9A-CCEF22892FC3}" ShortID="272509372">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_6" ID="{FE1AFC18-E975-4EAA-B712-078603E6C094}" ShortID="141803887">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.561129385964912"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.983552631578947"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_6" ID="{FE1AFC18-E975-4EAA-B712-078603E6C094}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_7" ID="{6C31D4B6-178D-4959-B447-924EA6362E89}" ShortID="297918530">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_7" ID="{BB8FD2CC-36C9-42D3-BB91-2391A7957499}" ShortID="298977393">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.236842105263158"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.517543859649123"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_7" ID="{BB8FD2CC-36C9-42D3-BB91-2391A7957499}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_8" ID="{AA8F44E5-F4DF-4774-BF7C-8B641EA3E439}" ShortID="1007436238">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_8" ID="{BF95591C-6481-4476-87FC-FEAFE6D5AA19}" ShortID="85982036">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.323807957393484"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884047121772686"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_8" ID="{BF95591C-6481-4476-87FC-FEAFE6D5AA19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Transition_Walk_9" ID="{99119572-8A89-4B79-8641-7FE14DC2A79C}" ShortID="1021442312">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Transition_Walk_9" ID="{1FCAE381-DB45-421F-A3F5-1D2992C33181}" ShortID="8962880">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.367874448024823"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.777552810597923"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Transition Walking\Transition_Walk_9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Transition_Walk_9" ID="{1FCAE381-DB45-421F-A3F5-1D2992C33181}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="microtonal blips" ID="{AAFB65E8-6993-4A92-AB6B-B5AFA9CA5F9F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<RandomSequenceContainer Name="Pillar Audio" ID="{EBB7B9B3-DA33-4724-9AD8-8D6C9F6CD834}" ShortID="152827962">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Pillar_Attenuation" ID="{303C8739-6DDC-42A9-8B40-B4211E935E3B}" WorkUnitID="{B1B3041A-0ACF-41F1-86D9-0E0D49AA4923}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Transition" ID="{EC838A6E-D505-441D-B375-C46C9CA880E8}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="pillar_1" ID="{CDA96432-73BE-42A2-806E-B41BA8771B8D}" ShortID="1031970291">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pillar_1" ID="{E9330687-2CFD-4199-B81B-C22198D94747}" ShortID="673249859">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="4.28095203285993"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="9.24059158312448"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="20.0995918615984"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Pillar Audio\pillar_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pillar_1" ID="{E9330687-2CFD-4199-B81B-C22198D94747}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pillar_2" ID="{F07E31E1-429E-4DAD-A31C-548AC251F791}" ShortID="261942236">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pillar_2" ID="{CE08F323-ABBB-4B86-85A3-ED2F4220E28D}" ShortID="118869749">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.0118462823726"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="9.97148583263716"/>
-												<Property Name="TrimEnd" Type="Real64" Value="20.0473851294904"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Pillar Audio\pillar_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pillar_2" ID="{CE08F323-ABBB-4B86-85A3-ED2F4220E28D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pillar_3" ID="{DE364A72-03D8-41E2-A5D6-88EC43B6EA00}" ShortID="495203917">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pillar_3" ID="{1A97A59A-AE57-4BFC-AF20-D1EF6A8B0B6D}" ShortID="93764567">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.0118462823726"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="9.34500504734057"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="20.0995918615985"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Pillar Audio\pillar_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pillar_3" ID="{1A97A59A-AE57-4BFC-AF20-D1EF6A8B0B6D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pillar_4" ID="{61D53693-4832-40CC-A514-E6DBC9E39C9B}" ShortID="645127285">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pillar_4" ID="{D1665026-91A5-46D6-B36A-9D17ECA69768}" ShortID="298233022">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.06405301448065"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="9.97148583263715"/>
-												<Property Name="TrimEnd" Type="Real64" Value="19.9951783973824"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>pillar_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pillar_4" ID="{D1665026-91A5-46D6-B36A-9D17ECA69768}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="pillar_1" ID="{CDA96432-73BE-42A2-806E-B41BA8771B8D}"/>
-								<ItemRef Name="pillar_2" ID="{F07E31E1-429E-4DAD-A31C-548AC251F791}"/>
-								<ItemRef Name="pillar_3" ID="{DE364A72-03D8-41E2-A5D6-88EC43B6EA00}"/>
-								<ItemRef Name="pillar_4" ID="{61D53693-4832-40CC-A514-E6DBC9E39C9B}"/>
-							</Playlist>
-						</RandomSequenceContainer>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

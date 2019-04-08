@@ -11,7 +11,9 @@
       <e p="Assets" t="Include">
         <e p="_Scripts" t="Include">
           <e p="EventPositionConfiner.cs" t="Include" />
+          <e p="Firefly.cs" t="Include" />
           <e p="FlameController.cs" t="Include" />
+          <e p="FootprintController.cs" t="Include" />
           <e p="FootPrintGenerator.cs" t="Include" />
           <e p="Ladder.cs" t="Include" />
           <e p="LightIntensityFlicker.cs" t="Include" />
@@ -19,6 +21,7 @@
           <e p="Loom1Completion.cs" t="Include" />
           <e p="LoomTrigger.cs" t="Include" />
           <e p="PathPillar.cs" t="Include" />
+          <e p="PlayerPosTracker.cs" t="Include" />
           <e p="PostWwise.cs" t="Include" />
           <e p="StarController.cs" t="Include" />
           <e p="TestAnimation.cs" t="Include" />
@@ -27,9 +30,13 @@
         </e>
         <e p="_Shaders" t="Include">
           <e p="FlameShader.shader" t="Include" />
+          <e p="Footprint.shader" t="Include" />
           <e p="NewUnlitShader.shader" t="Include" />
           <e p="RadialBackground.shader" t="Include" />
+          <e p="ReverseSilhouette.shader" t="Include" />
+          <e p="SilhouetteNormals.shader" t="Include" />
           <e p="SkyDomeStars.shader" t="Include" />
+          <e p="Stars.shader" t="Include" />
           <e p="ToonShader.shader" t="Include" />
         </e>
         <e p="Shaders" t="Include">

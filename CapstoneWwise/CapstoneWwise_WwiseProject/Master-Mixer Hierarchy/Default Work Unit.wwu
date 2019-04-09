@@ -62,6 +62,13 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="Loom2_BellDelay" ID="{2C237830-3463-4D9F-A39B-55E513EA9A69}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="BellDelay" ID="{CA2A5517-CE71-4605-B730-EA53749939E2}" WorkUnitID="{A7D374E4-883E-4DCE-903F-192DE202D22A}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Transition" ID="{EC838A6E-D505-441D-B375-C46C9CA880E8}">

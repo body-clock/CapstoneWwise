@@ -51,6 +51,7 @@ namespace AK
         static const AkUniqueID JUMPREVERB = 3302700529U;
         static const AkUniqueID LOOM1_CANDLEVERB = 475597662U;
         static const AkUniqueID LOOM1_WALKDECAY = 511694909U;
+        static const AkUniqueID LOOM2_BELLDELAY = 2814466889U;
         static const AkUniqueID LOOM2_WALKDECAY = 3240738094U;
         static const AkUniqueID TRANSITION_AUX_BUS = 911329060U;
     } // namespace AUX_BUSSES

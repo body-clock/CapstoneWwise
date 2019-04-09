@@ -5824,6 +5824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6891766368867671714}
   - component: {fileID: 2868524797284273964}
+  - component: {fileID: 8505176526306490688}
   m_Layer: 0
   m_Name: Table2_Animation_UV
   m_TagString: Untagged
@@ -5885,7 +5886,7 @@ Animator:
   m_GameObject: {fileID: 6651003280594893716}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 860fadba0fcf543b48525bb338519024, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31937101144faf343bae2915cf4112bd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5894,6 +5895,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8505176526306490688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6651003280594893716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401117e45f7e4254e8c8e8fc1e804554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cabinetAnimator: {fileID: 2868524797284273964}
+  waitTime: 0.5
 --- !u!1 &6705807852797465408
 GameObject:
   m_ObjectHideFlags: 0

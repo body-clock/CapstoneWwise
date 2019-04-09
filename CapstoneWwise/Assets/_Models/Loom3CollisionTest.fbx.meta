@@ -53,6 +53,28 @@ ModelImporter:
     100094: WindowOutting4
     100096: WindowOutting5
     100098: WindowOutting6
+    100100: Ceiling2
+    100102: MainBuilding
+    100104: MovingPlatform
+    100106: RoofCorner1
+    100108: RoofCorner2
+    100110: RoofCorner3
+    100112: RoofCorner4
+    100114: RoofDoorSide
+    100116: RoofDoorTop
+    100118: RoofExtra1
+    100120: RoofExtra2
+    100122: RoofExtra3
+    100124: RoofFloor
+    100126: RoofRampSide4
+    100128: RoofRampSide5
+    100130: RoofSide1
+    100132: RoofSide2
+    100134: RoofSide3
+    100136: RoofSideSlit1
+    100138: RoofSideSlit2
+    100140: RoofSideSlit3
+    100142: RoofSideSlit4
     400000: BottomRamp
     400002: BottomWalkway
     400004: Ceiling1
@@ -103,6 +125,28 @@ ModelImporter:
     400094: WindowOutting4
     400096: WindowOutting5
     400098: WindowOutting6
+    400100: Ceiling2
+    400102: MainBuilding
+    400104: MovingPlatform
+    400106: RoofCorner1
+    400108: RoofCorner2
+    400110: RoofCorner3
+    400112: RoofCorner4
+    400114: RoofDoorSide
+    400116: RoofDoorTop
+    400118: RoofExtra1
+    400120: RoofExtra2
+    400122: RoofExtra3
+    400124: RoofFloor
+    400126: RoofRampSide4
+    400128: RoofRampSide5
+    400130: RoofSide1
+    400132: RoofSide2
+    400134: RoofSide3
+    400136: RoofSideSlit1
+    400138: RoofSideSlit2
+    400140: RoofSideSlit3
+    400142: RoofSideSlit4
     2100000: lambert1
     2300000: BottomRamp
     2300002: BottomWalkway
@@ -152,6 +196,27 @@ ModelImporter:
     2300090: WindowOutting4
     2300092: WindowOutting5
     2300094: WindowOutting6
+    2300096: Ceiling2
+    2300098: MovingPlatform
+    2300100: RoofCorner1
+    2300102: RoofCorner2
+    2300104: RoofCorner3
+    2300106: RoofCorner4
+    2300108: RoofDoorSide
+    2300110: RoofDoorTop
+    2300112: RoofExtra1
+    2300114: RoofExtra2
+    2300116: RoofExtra3
+    2300118: RoofFloor
+    2300120: RoofRampSide4
+    2300122: RoofRampSide5
+    2300124: RoofSide1
+    2300126: RoofSide2
+    2300128: RoofSide3
+    2300130: RoofSideSlit1
+    2300132: RoofSideSlit2
+    2300134: RoofSideSlit3
+    2300136: RoofSideSlit4
     3300000: BottomRamp
     3300002: BottomWalkway
     3300004: Ceiling1
@@ -200,6 +265,27 @@ ModelImporter:
     3300090: WindowOutting4
     3300092: WindowOutting5
     3300094: WindowOutting6
+    3300096: Ceiling2
+    3300098: MovingPlatform
+    3300100: RoofCorner1
+    3300102: RoofCorner2
+    3300104: RoofCorner3
+    3300106: RoofCorner4
+    3300108: RoofDoorSide
+    3300110: RoofDoorTop
+    3300112: RoofExtra1
+    3300114: RoofExtra2
+    3300116: RoofExtra3
+    3300118: RoofFloor
+    3300120: RoofRampSide4
+    3300122: RoofRampSide5
+    3300124: RoofSide1
+    3300126: RoofSide2
+    3300128: RoofSide3
+    3300130: RoofSideSlit1
+    3300132: RoofSideSlit2
+    3300134: RoofSideSlit3
+    3300136: RoofSideSlit4
     4300000: RampPlatform3
     4300002: RampPlatform2
     4300004: Ramp2
@@ -248,6 +334,27 @@ ModelImporter:
     4300090: RoofRampCorner3
     4300092: RoofRampSide3
     4300094: RoofRampCorner4
+    4300096: RoofCorner2
+    4300098: RoofCorner4
+    4300100: RoofCorner1
+    4300102: RoofCorner3
+    4300104: RoofSide2
+    4300106: RoofSide3
+    4300108: RoofSideSlit1
+    4300110: RoofSideSlit2
+    4300112: RoofSideSlit3
+    4300114: RoofSideSlit4
+    4300116: RoofSide1
+    4300118: RoofDoorSide
+    4300120: RoofDoorTop
+    4300122: RoofExtra1
+    4300124: RoofExtra2
+    4300126: RoofExtra3
+    4300128: MovingPlatform
+    4300130: RoofFloor
+    4300132: RoofRampSide4
+    4300134: RoofRampSide5
+    4300136: Ceiling2
   externalObjects: {}
   materials:
     importMaterials: 1

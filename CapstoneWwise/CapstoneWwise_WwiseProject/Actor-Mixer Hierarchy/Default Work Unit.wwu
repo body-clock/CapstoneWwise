@@ -1356,6 +1356,262 @@
 										<ActiveSource Name="loom2_bass_texture" ID="{A0D07D2F-7E45-402D-A547-A00BC97D1270}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Bells" ID="{DB4C1BE8-E5BC-4FBE-BDE8-A53063F2B1C8}" ShortID="463813352">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="BellDelay" ID="{CA2A5517-CE71-4605-B730-EA53749939E2}" WorkUnitID="{A7D374E4-883E-4DCE-903F-192DE202D22A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Loom2_BellDelay" ID="{2C237830-3463-4D9F-A39B-55E513EA9A69}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="loom2_bell_1" ID="{A8CCCD0E-7856-43E5-8935-CDC552C09089}" ShortID="817506691">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_1" ID="{6A210865-A38F-4F84-83C3-BEA27E5126FD}" ShortID="753291653">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.43141592920354"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.30041087231353"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_1" ID="{6A210865-A38F-4F84-83C3-BEA27E5126FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_2" ID="{C7955BF8-076A-4E5C-815A-6ABFD118CA70}" ShortID="36753502">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_2" ID="{DB86A007-B7B8-4501-A7D8-A10851D66C19}" ShortID="957634866">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.152537324664379"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.872200600004013"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_2" ID="{DB86A007-B7B8-4501-A7D8-A10851D66C19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_3" ID="{89FC9EE8-FB6E-4C88-A8F4-6259BDEB7C6B}" ShortID="819779558">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_3" ID="{CA3E506E-F2D0-4BCD-8324-7091EAE08216}" ShortID="732193301">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.228152654867257"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.06609513274336"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_3" ID="{CA3E506E-F2D0-4BCD-8324-7091EAE08216}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_4" ID="{9227F286-E189-4A1D-A471-65649DECB996}" ShortID="127657422">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_4" ID="{DB0A9D8D-CD80-488D-8B7C-53CFC09FE0D7}" ShortID="321688546">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.216716056629141"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.3698090371842"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_4" ID="{DB0A9D8D-CD80-488D-8B7C-53CFC09FE0D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_5" ID="{670EBE04-DA14-4291-8AFD-6A0EB020F30A}" ShortID="863339722">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_5" ID="{46346E7C-0F9F-4934-B0C9-8D9CB746340F}" ShortID="1043956754">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.202789918327213"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.790181405895691"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_5" ID="{46346E7C-0F9F-4934-B0C9-8D9CB746340F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_6" ID="{D99168DF-AAE2-49D3-BD0E-8A90555253DD}" ShortID="240989808">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_6" ID="{5A427FEC-9EE2-4FB6-B6A3-C8B133919706}" ShortID="293923305">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.174952064896755"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.714090060803082"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_6" ID="{5A427FEC-9EE2-4FB6-B6A3-C8B133919706}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_7" ID="{79808110-FC99-4E8B-9F01-4B04DA560B4E}" ShortID="275345336">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_7" ID="{37F6BD02-0394-442A-AE63-35E1BD6B6C7F}" ShortID="103764183">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.222865044247788"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.32354546685931"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_7" ID="{37F6BD02-0394-442A-AE63-35E1BD6B6C7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="loom2_bell_8" ID="{0ED3361A-322F-449B-8F67-FAE84AB2CF0A}" ShortID="648855327">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33A307D9-8563-4D49-A4E6-4FEBA11F7C89}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4E136E9-A80A-4993-A910-CBFCEAFE52B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="loom2_bell_9" ID="{8DC4B51C-6B70-403F-9CB7-21E6C1207826}" ShortID="718542971">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.373785343045773"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.83670384082837"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bells\loom2_bell_9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="loom2_bell_9" ID="{8DC4B51C-6B70-403F-9CB7-21E6C1207826}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

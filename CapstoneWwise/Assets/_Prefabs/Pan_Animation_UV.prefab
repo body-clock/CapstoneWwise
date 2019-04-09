@@ -3648,6 +3648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2406596789921345274}
   - component: {fileID: 660821057034194480}
+  - component: {fileID: 4596681676478453872}
   m_Layer: 0
   m_Name: Pan_Animation_UV
   m_TagString: Untagged
@@ -3725,7 +3726,7 @@ Animator:
   m_GameObject: {fileID: 9191087132669635534}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 972538b4e1eed4b158822c0feb2ada7e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37ea6f4d31430f2408bb9644bddc916a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3734,3 +3735,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4596681676478453872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9191087132669635534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401117e45f7e4254e8c8e8fc1e804554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cabinetAnimator: {fileID: 660821057034194480}
+  waitTime: 0.5
